@@ -1,0 +1,9 @@
+.containerAbout {
+  position: relative;
+  background-color: #fff;
+  height: 100vh;
+
+  @media (max-width: 900px) {
+
+  }
+}

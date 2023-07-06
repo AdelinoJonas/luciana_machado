@@ -1,18 +1,41 @@
 .container {
-  height: 100vh;
+  height:100vh;
   background-image: url(../../assets/photos/Mockup2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
-  /* background-attachment: fixed; */
-  display: flex;
-  align-items: end;
-}
-
-button{
-  margin: 0 0 30vh 30vw;
+  background-position: center;
 
   @media (max-width: 900px) {
-    margin: 0 0 25vh 25vw;
+    background-size: contain;
+    background-position: top;
   }
+}
+
+.wave{
+  padding-top: 20%;
+  position:relative;
+  display: flex;
+}
+
+ .wave1{
+  position: absolute;
+   height: calc(100% + 140px);
+   width: 100%;
+   color:#fff;
+   z-index: 6;
+}
+
+ .wave2{
+  height: calc(90% + 43px);
+  top: 110%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.wave3{
+  height: calc(90% + 50px);
+  top: 115%;
+  position: absolute;
+  display: flex;
+  z-index: 4;
 }
