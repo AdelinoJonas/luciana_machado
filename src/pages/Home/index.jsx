@@ -1,9 +1,11 @@
 import React from 'react';
 import './style.css';
 
-export default function index() {
+export default function Home() {
   return (
-    <div>index</div>
+    <div className='container'>
+      <button className='button'>ENTRE EM CONTATO</button>  
+    </div>
   )
 }
 
