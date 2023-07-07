@@ -4,6 +4,7 @@
   background-color: #FACEA5;
   opacity: 0.6;
   position: fixed;
+  z-index: 999;
 }
 
 ul{
