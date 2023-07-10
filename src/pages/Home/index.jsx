@@ -1,7 +1,6 @@
 import React from 'react';
 import wave1 from '../../assets/waves/home/colorwave-bg.png';
 import wave3 from '../../assets/waves/home/wave3.svg';
-// import wave3 from '../../assets/waves/home/wave3.svg';
 import './style.css';
 
 export default function Home() {

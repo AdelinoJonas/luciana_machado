@@ -23,21 +23,6 @@
     background-repeat: no-repeat;
     background-position: top;
   }
-  /* @media (max-width: 625px) {
-    height:50vh;
-    background-image: url(../../assets/photos/Mockup8.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-  } */
-}
-
-.wave{
-  /* height: 100vh; */
-  /* position:relative; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
  .wave1{
