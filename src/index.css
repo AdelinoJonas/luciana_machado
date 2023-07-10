@@ -1,8 +1,14 @@
-
+#root{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: roboto, sans-serif;
+  background-color: red;
+}
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: 100vw;
 }
 

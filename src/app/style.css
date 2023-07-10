@@ -1,9 +1,6 @@
 .all{
   display: flex;
   flex-direction: column;
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-  font-family: roboto, sans-serif;
 }
 
 .contactButton{
@@ -17,4 +14,5 @@
   -webkit-box-shadow: 11px 14px 20px 0px rgba(210,133,99,1);
   -moz-box-shadow: 11px 14px 20px 0px rgba(210,133,99,1);
   box-shadow: 11px 14px 20px 0px rgba(210,133,99,1);
+  
 }

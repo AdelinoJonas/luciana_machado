@@ -1,5 +1,5 @@
-.containerNav{
-  width: 100%;
+.containerNavbar{
+  width: 100vw;
   height: 12vh;
   background-color: #FACEA5;
   opacity: 0.8;
@@ -7,16 +7,15 @@
   z-index: 999;
 }
 
-ul{
+.allItems{
   display: flex;
-  width: 70%;
   height: 7vh;
   align-items: center;
   justify-content: center;
   gap: 3rem;
 }
 
-li{
+.allItems li{
   all: unset;
   font-size: 24px;
   color: #031c0e;
