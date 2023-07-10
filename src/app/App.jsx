@@ -11,29 +11,10 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/* <div className="all"> */}
-        {/* <div className="header"> */}
-          {screenWidth > 900 ? <Navbar /> : <NavbarMobile />}
-        {/* </div> */}
-        <Home />
-        <About />
-        <Footer />
-        {/* <div className='relative z-0 bg-primary'>
-      <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-        <Navbar/>
-        {!isMobile ? <Hero /> : <HeroMobile/>}
-      </div>
+      {screenWidth > 900 ? <Navbar /> : <NavbarMobile />}
+      <Home />
       <About />
-      <Experience />
-      <Tech />
-      <Works />
-      {/*<Feedbacks />*/}
-        {/* <div className='relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-        <Contact />
-        {/* <StarsCanvas /> */}
-        {/*</div>
-    </div> */}
-      {/* </div> */}
+      <Footer />
     </BrowserRouter>
   );
 }
