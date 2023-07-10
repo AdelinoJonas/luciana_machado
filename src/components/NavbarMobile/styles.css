@@ -1,16 +1,20 @@
 .containerNav{
   width: 100%;
   height: 12vh;
-  background-color: #FACEA5;
-  opacity: 0.8;
+  background-color: #facea5c4;
   position: fixed;
-  z-index: 999;
+  z-index: 800;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .menu{
   width: 3rem;
   height: 3rem;
   cursor: pointer;
+  padding-left: 2rem;
+  color: #266D45;
 }
 
 .boxdrop{
@@ -23,68 +27,67 @@
   z-index: 555;
 }
 
-.container{
+.sectionLogo{
+  width: 250px;
   height: 100vh;
+  background-color: #031c0e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
-  background: red;
+.centerImg{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.logoMenu{
+  width: 90%;
+  cursor: pointer;
+}
+
+.container{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem 3rem 2rem;
-  border: 3px gray;
-  @media (max-width: 700px) {
-    width: 180px;
-  }
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 60%;
 }
 
 li{
-    all: unset;
+  all: unset;
   text-decoration: none;
   cursor: pointer;
-  /* color: ${(props) => props.theme.color.links};
-  font-size: ${(props) => props.theme.sizeFonts.subtitle};
-  font-weight: ${(props) => props.theme.weightFonts.links}; */
+  color: #E2E8F0;
+  font-size: 1.4rem;
+  font-weight:500;
   overflow: hidden;
-
-  padding: 1.5rem;
-  border-top: 2px solid rgba(245, 244, 244, 0.575);
-
-  &:hover {
-    /* color: ${(props) => props.theme.color.active}; */
-    /* font-weight: ${(props) => props.theme.weightFonts.title1}; */
+  padding: 1rem 1rem  0;
+  border-top: 6px groove gray;
+  /* text-align: center; */
+  /* &:hover {
+    color: #266D45;
+    font-weight: 700;
     opacity: 0.8;
     transition: all 0.3s;
-    background: rgba(245, 244, 244, 0.275);
     border-radius: 25px;
   }
 
   &.active {
-    /* color: ${(props) => props.theme.color.active};
-    font-weight: ${(props) => props.theme.weightFonts.title1}; */
+    color: #F5A14F;
+    font-weight: 700;
     text-transform: uppercase;
-    background: rgba(245, 244, 244, 0.1);
     border-right: 6px groove #fff;
     border-left: 6px groove #fff;
     border-radius: 50px;
     border-top: none;
     padding: 1rem 0.5rem;
-  }
-}
-/* 
-ul{
-  display: flex;
-  width: 70%;
-  height: 7vh;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
+  } */
 }
 
-li{
-  all: unset;
-  font-size: 24px;
-  color: #031c0e;
-  opacity: 1;
-  cursor: pointer;
-} */
+.logoHeader{
+  padding: 1rem 1rem 1rem 0;
+  height: 90%;
+}
