@@ -66,25 +66,6 @@ li{
   overflow: hidden;
   padding: 1rem 1rem  0;
   border-top: 6px groove gray;
-  /* text-align: center; */
-  /* &:hover {
-    color: #266D45;
-    font-weight: 700;
-    opacity: 0.8;
-    transition: all 0.3s;
-    border-radius: 25px;
-  }
-
-  &.active {
-    color: #F5A14F;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-right: 6px groove #fff;
-    border-left: 6px groove #fff;
-    border-radius: 50px;
-    border-top: none;
-    padding: 1rem 0.5rem;
-  } */
 }
 
 .logoHeader{

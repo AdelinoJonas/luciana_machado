@@ -9,8 +9,7 @@ export default function Footer() {
   return (
     <div className="containerFooter">
       <img src={logo} alt="logo" />
-      <p>Luciana Machado - Nutricionista&copy;&reg;</p>
-      <h1>{year}</h1>
+      <p>Luciana Machado - Nutricionista&copy;&reg;{year}</p>
     </div>
   );
 }

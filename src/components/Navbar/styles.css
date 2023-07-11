@@ -2,7 +2,7 @@
   width: 100vw;
   height: 12vh;
   background-color: #FACEA5;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   position: fixed;
   z-index: 800;
   display: flex;
@@ -25,4 +25,23 @@
   color: #031c0e;
   opacity: 1;
   cursor: pointer;
+
+    &:hover {
+    color: #266D45;
+    font-weight: 700;
+    opacity: 0.8;
+    transition: all 0.3s;
+    border-radius: 25px;
+  }
+
+  &.active {
+    color: #F5A14F;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-right: 6px groove #fff;
+    border-left: 6px groove #fff;
+    border-radius: 50px;
+    border-top: none;
+    padding: 1rem 0.5rem;
+  }
 }

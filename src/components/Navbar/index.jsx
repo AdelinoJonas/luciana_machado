@@ -5,7 +5,7 @@ import "./styles.css";
 export default function Navbar() {
   return (
     <div className="containerNavbar">
-      <img src={logo} alt="logo" />
+      <img src={logo} alt="logo" className="logoweb" />
       <ul className="allItems">
         <li exact="true" active="true" to="/">
           Início
