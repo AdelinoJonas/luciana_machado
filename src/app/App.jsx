@@ -10,7 +10,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      {screenWidth > 900 ? <Navbar /> : <NavbarMobile />}
+      {screenWidth > 1000 ? <Navbar /> : <NavbarMobile />}
       <Home />
       <About />
       <Footer />

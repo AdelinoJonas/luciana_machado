@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logos/MarcaD'águaLogo-Preto.png";
+import logo from "../../assets/logos/MarcaD'águaLogo3.png";
 import "./styles.css";
 
 export default function Navbar() {

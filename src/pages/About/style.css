@@ -9,7 +9,7 @@
   margin-bottom: 3rem;
   z-index: 777;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     justify-content: center;
   }
 }
@@ -17,7 +17,7 @@
 .row{
   display: flex;
   justify-content: center;
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     flex-direction: column-reverse;
   }
 }
@@ -28,14 +28,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     width: 100%;
   }
 }
 
 .containerAbout h1{
   font-size: 3rem;
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     text-align: center;
     font-size: 2rem;
   }
@@ -47,7 +47,7 @@
   line-height: 2.3rem;
   margin-bottom: 2rem;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     padding: 0 2rem 0 2rem;
     font-size: 1.2rem;
     line-height: 1.8rem;
@@ -60,7 +60,7 @@
   align-items: center;
   justify-content: center;
   border-radius:0 25%;
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -77,7 +77,7 @@
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   padding: 1rem 1rem 0 0;
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     height: 50vh;
   }
 }
