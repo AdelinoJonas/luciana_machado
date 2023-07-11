@@ -7,27 +7,27 @@ export default function Navbar() {
     <div className="containerNavbar">
       <img src={logo} alt="logo" className="logoweb" />
       <ul className="allItems">
-        <li exact="true" active="true" to="/">
+        <li className="item" exact="true" active="true" to="/">
           Início
         </li>
 
-        <li active="false" to="/about">
+        <li className="item" active="false" to="/about">
           Quem sou
         </li>
 
-        <li active="false" to="/services">
+        <li className="item" active="false" to="/services">
           Especialidades
         </li>
 
-        <li active="false" to="/calculator">
+        <li className="item" active="false" to="/calculator">
           Calculadora IMC
         </li>
 
-        <li active="false" to="/News">
+        <li className="item" active="false" to="/News">
           Curiosidades
         </li>
 
-        <li active="false" to="/contact">
+        <li className="item" active="false" to="/contact">
           Contato
         </li>
       </ul>

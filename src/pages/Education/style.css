@@ -1,6 +1,5 @@
 .containerEducation {
-  background-color: #F5A14F;
-  height: 100vh;
+  background-color: #BACE10;
 }
 
 .waveInverted1{
@@ -11,5 +10,58 @@
   width: 100%;
   position: relative;
   z-index: 8;
-  margin-top: -17%;
+  margin-top: -25%;
+}
+
+.boxEducation{
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  padding: 2rem;
+}
+
+.boxEducation h1{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.descriptionEducation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.descriptionEducation .educationList{
+  width: 35vw;
+}
+
+.descriptionEducation .educationList .educationItem{
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.descriptionEducation p{
+  width: 90%;
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 2.3rem;
+  margin-bottom: 2rem;
+  padding: 0 6%;
+}
+
+.imgKnowledge{
+  width: 50vw;
+}
+
+.nutriImg{
+  width: 48vw;
+  border-radius: 30% 70% 70% 30% / 42% 39% 61% 58% ;
+  -webkit-box-shadow: -59px 47px 0px -1px rgba(38,109,69,1);
+  -moz-box-shadow: -59px 47px 0px -1px rgba(38,109,69,1);
+  box-shadow: -59px 47px 0px -1px rgba(38,109,69,1);
 }
