@@ -1,53 +1,57 @@
 .containerNavbar{
-  width: 100vw;
-  height: max-content;
+  width: 100%;
+  height: 11vh;
   background-color: #FACEA5;
-  /* opacity: 0.8; */
+  opacity: 0.9;
   position: fixed;
   z-index: 800;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: .5rem ;
 }
 
 .logoweb{
-  background-color: #031c0e;
-  height: 13vh;
-  padding: .5rem 2rem .5rem 1rem;
+  background-color: #ffffff83;
+  height: 100%;
+  width: 150px;
+  padding: .2rem .5rem .2rem .5rem;
   border-radius: 20px;
   cursor: pointer;
+  margin-left: 2rem;
 }
 
 .allItems{
   display: flex;
   width: 80%;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin-right: 2rem;
+  gap: 2rem;
 }
 
 .allItems .item{
   all: unset;
-  font-size: 24px;
-  color: #031c0e;
-  opacity: 1;
+  width: max-content;
+  font-size: 1.2rem;
   cursor: pointer;
 
     &:hover {
     color: #266D45;
+    font-size: 1.3rem;
     font-weight: 700;
     opacity: 0.8;
     transition: all 0.3s;
-    border-radius: 25px;
   }
 
   &.active {
     color: #F5A14F;
+    font-size: 1.3rem;
     font-weight: 700;
     text-transform: uppercase;
     border-right: 6px groove #fff;
     border-left: 6px groove #fff;
     border-radius: 50px;
     border-top: none;
-    padding: 1rem 0.5rem;
   }
 }

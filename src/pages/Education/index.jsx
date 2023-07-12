@@ -35,10 +35,18 @@ export default function Education() {
           <div className="imgKnowledge">
             <img src={nutri} alt="nutricionista" className="nutriImg" />
           </div>
-          <p>
-             Como missão priorizo um tratamento individualizado para a conquista de seus objetivos e metas, na busca de saúde e qualidade de vida. Ajudando de forma simples e objetiva o processo de mudanças de hábitos alimentares permanentes e duradouros. Viabilizo atendimentos on-line para pacientes de todo o Brasil e para brasileiros que moram no exterior.
-          </p>
         </div>
+        <ul className="miniCardsContainer">
+          <li className="miniCard">
+            Como missão priorizo um tratamento individualizado para a conquista de seus objetivos e metas, na busca de saúde e qualidade de vida.
+          </li>
+          <li className="miniCard">
+            Ajudando de forma simples e objetiva o processo de mudanças de hábitos alimentares permanentes e duradouros.
+          </li>
+          <li className="miniCard">
+            Viabilizo atendimentos on-line para pacientes de todo o Brasil e para brasileiros que moram no exterior.
+          </li>
+        </ul>
       </div>
     </div>
   );

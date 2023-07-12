@@ -4,7 +4,7 @@
 
 .waveInverted1{
   width: 100%;
-  position: relative;  
+  position: relative;
 }
 .waveInverted2{
   width: 100%;
@@ -36,32 +36,76 @@
 
 .descriptionEducation .educationList{
   width: 35vw;
+  @media (max-width: 1000px) {
+    width: 90%;
+  }
 }
 
 .descriptionEducation .educationList .educationItem{
-  font-size: 1.5rem;
+  width: 100%;
+  font-size: 1.3rem;
   text-align: justify;
   line-height: 2.3rem;
   margin-bottom: 2rem;
-}
-
-.descriptionEducation p{
-  width: 90%;
-  font-size: 1.5rem;
-  text-align: justify;
-  line-height: 2.3rem;
-  margin-bottom: 2rem;
-  padding: 0 6%;
 }
 
 .imgKnowledge{
   width: 50vw;
+  @media (max-width: 1000px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .nutriImg{
   width: 48vw;
   border-radius: 30% 70% 70% 30% / 42% 39% 61% 58% ;
-  -webkit-box-shadow: -59px 47px 0px -1px rgba(38,109,69,1);
-  -moz-box-shadow: -59px 47px 0px -1px rgba(38,109,69,1);
-  box-shadow: -59px 47px 0px -1px rgba(38,109,69,1);
+  -webkit-box-shadow: -19px 47px 0px -1px rgba(38,109,69,1);
+  -moz-box-shadow: -19px 47px 0px -1px rgba(38,109,69,1);
+  box-shadow: -19px 47px 0px -1px rgba(38,109,69,1);
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
+}
+
+.miniCardsContainer{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin: 5rem 0;
+  /* flex-wrap: wrap; */
+  @media (max-width: 1000px) {
+    width: 100%;
+    margin-left: -1rem;
+    flex-direction: column;
+  }
+
+}
+
+.miniCard{
+
+  width: 30vw;
+  height: max-content;
+  background-color: #F5A14F;
+  border-radius: 30% 70% 70% 30% / 42% 39% 61% 58% ;
+  -webkit-box-shadow: -19px 47px 0px -1px #D28563;
+  -moz-box-shadow: -19px 47px 0px -1px #D28563;
+  box-shadow: -19px 47px 0px -1px #D28563;
+  padding: 3rem 2rem 3rem;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.3rem;
+
+  @media (max-width: 1000px) {
+    width: 80%;
+    height: max-content;
+    padding: 5rem 2rem;
+    margin-left: -3rem;
+    font-size: 1.3rem;
+  }
 }

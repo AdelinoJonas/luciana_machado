@@ -44,4 +44,8 @@
   height: 150px;
   position: absolute;
   z-index: 6;
+  @media (max-width: 625px) {
+    width: 100vw;
+    height:25vh;
+  }
 }

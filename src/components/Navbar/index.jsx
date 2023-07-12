@@ -1,13 +1,17 @@
 import React from "react";
-import logo from "../../assets/logos/MarcaD'águaLogo3.png";
+import logo from "../../assets/logos/MarcaD'águaLogo1.png";
 import "./styles.css";
+import { useNavigate } from "react-router";
 
 export default function Navbar() {
+  const navigate = useNavigate();
   return (
     <div className="containerNavbar">
       <img src={logo} alt="logo" className="logoweb" />
+
       <ul className="allItems">
-        <li className="item" exact="true" active="true" to="/">
+        
+        <li className="item" exact="true" active="true" onClick={()=>{navigate("/")}}>
           Início
         </li>
 
@@ -20,11 +24,11 @@ export default function Navbar() {
         </li>
 
         <li className="item" active="false" to="/calculator">
-          Calculadora IMC
+          Informações
         </li>
 
         <li className="item" active="false" to="/News">
-          Curiosidades
+          Acompanhamento
         </li>
 
         <li className="item" active="false" to="/contact">
