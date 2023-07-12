@@ -1,5 +1,12 @@
 .containerEducation {
   background-color: #BACE10;
+  margin-top: -3rem;
+}
+
+.newWave{
+  width: 100%;
+  position: relative;
+  margin-top: -15%;
 }
 
 .waveInverted1{

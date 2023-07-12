@@ -8,6 +8,7 @@
   color: #266D45;
   margin-bottom: 3rem;
   z-index: 777;
+  padding-bottom: 3rem;
 
   @media (max-width: 1000px) {
     justify-content: center;

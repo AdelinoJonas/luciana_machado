@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import About from "../pages/About";
 import Footer from "../components/Footer";
 import NavbarMobile from "../components/NavbarMobile";
-import Education from "../pages/Education";
+import Specialities from "../pages/Specialities";
 
 function App() {
   let screenWidth = window.innerWidth;
@@ -14,7 +14,7 @@ function App() {
       {screenWidth > 1000 ? <Navbar /> : <NavbarMobile />}
       <Home />
       <About />
-      <Education />
+      <Specialities />
       <Footer />
     </BrowserRouter>
   );

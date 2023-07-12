@@ -4,9 +4,12 @@ import wave2 from "../../assets/waves/home/waveInverted2.svg";
 import wave1 from "../../assets/waves/home/waveInverted1.svg";
 import nutri from "../../assets/photos/Mockup5.jpg";
 import "./style.css";
+import Focused from "./components/Focused";
+import newWave from "../../assets/waves/home/newWave3.png";
 
 export default function Education() {
   return (
+    <>
     <div className="containerEducation">
       <div className="headerEducation">
         <img src={wave2} alt="background wave" className="waveInverted1" />
@@ -48,6 +51,9 @@ export default function Education() {
           </li>
         </ul>
       </div>
+    <img src={newWave} alt="background wave" className="newWave" />
     </div>
+    <Focused />
+    </>
   );
 }
