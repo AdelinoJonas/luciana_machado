@@ -46,27 +46,58 @@ export default function NavbarMobile() {
               />
             </div>
             <ul className="container">
-              <li className="container-item" exact="true" active="true" to="/" onClick={handleToggleMenu}>
+              <li
+                className="container-item"
+                exact="true"
+                active="true"
+                to="/"
+                onClick={handleToggleMenu}
+              >
                 Início
               </li>
 
-              <li className="container-item" active="false" to="/about" onClick={handleToggleMenu}>
+              <li
+                className="container-item"
+                active="false"
+                to="/about"
+                onClick={handleToggleMenu}
+              >
                 Quem sou
               </li>
 
-              <li className="container-item" active="false" to="/services" onClick={handleToggleMenu}>
+              <li
+                className="container-item"
+                active="false"
+                to="/services"
+                onClick={handleToggleMenu}
+              >
                 Especialidades
               </li>
 
-              <li className="container-item" active="false" to="/customers" onClick={handleToggleMenu}>
+              <li
+                className="container-item"
+                active="false"
+                to="/customers"
+                onClick={handleToggleMenu}
+              >
                 Calculadora IMC
               </li>
 
-              <li className="container-item" active="false" to="/links" onClick={handleToggleMenu}>
+              <li
+                className="container-item"
+                active="false"
+                to="/links"
+                onClick={handleToggleMenu}
+              >
                 Curiosidades
               </li>
 
-              <li className="container-item" active="false" to="/contact" onClick={handleToggleMenu}>
+              <li
+                className="container-item"
+                active="false"
+                to="/contact"
+                onClick={handleToggleMenu}
+              >
                 Contato
               </li>
             </ul>

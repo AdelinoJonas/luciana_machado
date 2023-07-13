@@ -10,8 +10,14 @@ export default function Navbar() {
       <img src={logo} alt="logo" className="logoweb" />
 
       <ul className="allItems">
-        
-        <li className="item" exact="true" active="true" onClick={()=>{navigate("/")}}>
+        <li
+          className="item"
+          exact="true"
+          active="true"
+          onClick={() => {
+            navigate("/");
+          }}
+        >
           Início
         </li>
 
