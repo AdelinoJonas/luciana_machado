@@ -55,3 +55,29 @@
     border-top: none;
   }
 }
+
+.link{
+  all: unset;
+  width: max-content;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+    &:hover {
+    color: #266D45;
+    font-size: 1.3rem;
+    font-weight: 700;
+    opacity: 0.8;
+    transition: all 0.3s;
+  }
+
+  &.active {
+    color: #F5A14F;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-right: 6px groove #fff;
+    border-left: 6px groove #fff;
+    border-radius: 50px;
+    border-top: none;
+  }
+}

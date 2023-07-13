@@ -1,44 +1,57 @@
 import React from "react";
 import logo from "../../assets/logos/MarcaD'águaLogo1.png";
 import "./styles.css";
-import { useNavigate } from "react-router";
+import { NavLink, useLocation } from "react-router-dom";
 
 export default function Navbar() {
-  const navigate = useNavigate();
+  const { pathname } = useLocation();
+
+  const handleClick = (e) => {
+    const clickedLink = e.target.getAttribute("href");
+    if (pathname !== clickedLink) {
+      window.scrollTo(0, 0);
+    }
+  };
+
   return (
     <div className="containerNavbar">
-      <img src={logo} alt="logo" className="logoweb" />
+      <img src={logo} alt="logo" className="logoweb" onClick={handleClick} />
 
       <ul className="allItems">
-        <li
-          className="item"
-          exact="true"
-          active="true"
-          onClick={() => {
-            navigate("/");
-          }}
-        >
-          Início
+        <li className="item" onClick={handleClick}>
+          <a href="#home" className="link">
+            Início
+          </a>
         </li>
 
-        <li className="item" active="false" to="/about">
-          Quem sou
+        <li className="item">
+          <a href="#about" className="link">
+            Quem sou
+          </a>
         </li>
 
-        <li className="item" active="false" to="/services">
-          Especialidades
+        <li className="item">
+          <a href="#specialities" className="link">
+            Especialidades
+          </a>
         </li>
 
-        <li className="item" active="false" to="/calculator">
-          Informações
+        <li className="item">
+          <a href="#infos" className="link">
+            Informações
+          </a>
         </li>
 
-        <li className="item" active="false" to="/News">
-          Acompanhamento
+        <li className="item">
+          <a href="#following" className="link">
+            Acompanhamento
+          </a>
         </li>
 
-        <li className="item" active="false" to="/contact">
-          Contato
+        <li className="item">
+          <a href="#contact" className="link">
+            Contato
+          </a>
         </li>
       </ul>
     </div>

@@ -17,7 +17,7 @@ export default function Focused() {
         <img src={wave3} alt="background wave" className="waveInv2" />
         <img src={wave1} alt="background wave" className="waveInv1" />
       </div>
-      <div className="boxEspecialities">
+      <div id="specialities" className="boxEspecialities">
         <h1>Minhas especialidades</h1>
         <div className="descriptionEspec">
           <h2>Nutrição Estética</h2>
@@ -123,7 +123,6 @@ export default function Focused() {
           </div>
           <div className="fatImage">
             <img src={fitxfat} alt="Estética exemplo" className="fatImg" />
-
           </div>
         </div>
       </div>

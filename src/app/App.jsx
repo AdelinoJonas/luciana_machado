@@ -5,17 +5,26 @@ import About from "../pages/About";
 import Footer from "../components/Footer";
 import NavbarMobile from "../components/NavbarMobile";
 import Specialities from "../pages/Specialities";
+import { MyRoutes } from "./routes";
+import Contact from "../pages/Contact";
+import Infos from "../pages/Infos";
+import Following from "../pages/following";
 
 function App() {
   let screenWidth = window.innerWidth;
 
   return (
     <BrowserRouter>
-      {screenWidth > 1000 ? <Navbar /> : <NavbarMobile />}
-      <Home />
-      <About />
-      <Specialities />
-      <Footer />
+      <nav>{screenWidth > 1000 ? <Navbar /> : <NavbarMobile />}</nav>
+      <main>
+        <Home id="home" />
+        <About id="about" />
+        <Specialities id="specialities" />
+        <Infos id="infos" />
+        <Following id="following" />
+        <Contact id="contact" />
+        <Footer />
+      </main>
     </BrowserRouter>
   );
 }

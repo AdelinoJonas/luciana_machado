@@ -4,7 +4,7 @@ import "./style.css";
 
 export default function About() {
   return (
-    <div className="containerAbout">
+    <div id="about" className="containerAbout">
       <h1>Bem-vindo(a) ao meu site!</h1>
       <div className="row">
         <div className="description">

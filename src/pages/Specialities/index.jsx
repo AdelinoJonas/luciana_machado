@@ -10,7 +10,7 @@ import newWave from "../../assets/waves/home/newWave3.png";
 export default function Education() {
   return (
     <>
-      <div className="containerEducation">
+      <div id="education" className="containerEducation">
         <div className="headerEducation">
           <img src={wave2} alt="background wave" className="waveInverted1" />
           <img src={wave3} alt="background wave" className="waveInverted2" />
