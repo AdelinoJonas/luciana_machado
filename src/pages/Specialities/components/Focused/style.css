@@ -39,11 +39,17 @@
   margin-top: -25%;
 }
 
-.newWave{
+.waveGreen{
   width: 100%;
   position: relative;
-  margin-top: -15%;
+  margin-top: -20%;
 }
+.waveTransparent{
+  width: 100%;
+  position: relative;
+  margin-top: 15%;
+}
+
 .newWaveFooter{
   width: 100%;
   position: relative;

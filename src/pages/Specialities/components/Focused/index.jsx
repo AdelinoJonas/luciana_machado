@@ -7,6 +7,8 @@ import stetic from "../../../../assets/photos/stetic.png";
 import dna from "../../../../assets/photos/dnaFood.jpg";
 import clinic from "../../../../assets/photos/mockup6.jpg";
 import fitxfat from "../../../../assets/photos/gorduraxmusculo.jpg";
+import waveTransparent from "../../../../assets/waves/home/waveTransparent.svg";
+import waveGreen from "../../../../assets/waves/home/waveGreen.svg";
 import "./style.css";
 
 export default function Focused() {
@@ -127,7 +129,10 @@ export default function Focused() {
         </div>
       </div>
 
-      <img src={newWave} alt="background wave" className="newWaveFooter" />
+      {/* <footer> */}
+          <img src={waveTransparent} alt="background wave" className="waveTransparent" />
+          <img src={waveGreen} alt="background wave" className="waveGreen" />
+      {/* </footer> */}
     </div>
   );
 }
