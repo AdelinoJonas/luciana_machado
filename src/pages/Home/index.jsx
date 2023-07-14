@@ -5,7 +5,6 @@ import whatsapp from "../../assets/logos/whatsOriginal.webp";
 import "./style.css";
 
 export default function Home() {
-
   const whatsappNumber = 4199166424;
 
   function handleOpenWhatsapp(whatsappNumber) {
@@ -17,11 +16,11 @@ export default function Home() {
       <img src={wave1} alt="background wave" className="wave1" />
       <img src={wave3} alt="background wave" className="wave2" />
       <img
-          src={whatsapp}
-          className="whatsApp"
-          alt="whatsApp contact"
-          onClick={() => handleOpenWhatsapp(whatsappNumber)}
-        />
+        src={whatsapp}
+        className="whatsApp"
+        alt="whatsApp contact"
+        onClick={() => handleOpenWhatsapp(whatsappNumber)}
+      />
     </div>
   );
 }

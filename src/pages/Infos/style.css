@@ -1,24 +1,42 @@
 .containerInfos {
-  height:100vh;
-  
-  /* background-image: linear-gradient(
+  padding: 2rem;
+  background-image: linear-gradient(
     to right,
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.5)
-  ),url(../../assets/photos/Mockup8.jpg);
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.7)
+  ),url(../../assets/photos/Mockup9.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top; */
-
+  background-position: center;
+  margin-top: -5px;
   @media (max-width: 1000px) {
-    /* background-size: cover;
-    background-position: top; */
-    height:80vh;
+    
   }
   @media (max-width: 625px) {
-    height:60vh;
-    background-position: top;
+    
   }
+}
+.containerInfos h2{
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+
+.containerInfos h1{
+  text-align: start;
+  font-size: 2rem;
+}
+
+.containerInfos p{
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.details{
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
 .greenInv3{
@@ -35,9 +53,25 @@
   width: 100%;
   position: relative;
   z-index: 10;
-  margin-top: -3%;
+  margin-top: -5%;
   @media (max-width: 625px) {
-    margin-top: -12%;
+    margin-top: -11%;
     
   }
+}
+
+.healthType{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.boxType{
+  width: 47%;
+}
+
+.healthType p{
+  font-size: 1.2rem;
+  text-align: justify;
 }

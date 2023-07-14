@@ -1,4 +1,4 @@
-.containerFocused {
+.containerContact {
   position: relative;
   margin-top: -1rem;
   background-image: linear-gradient(
@@ -10,29 +10,29 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
+
 }
 
-.headerEducation{
+.headerContact{
   position: relative;
   margin-top: 1rem;
 }
 
-.waveInv3{
+.waveContact2{
   width: 100%;
   position: relative;
-  z-index: 8;
-  margin-top: -1%;
+  z-index: 44;
+  margin-top: -0.1%;
 }
 
 .waveInv2{
   width: 100%;
   position: relative;
   z-index: 8;
-  margin-top: -15%;
+  margin-top: -20%;
 }
 
-.waveInv1{
+.waveContact1{
   width: 100%;
   position: relative;
   z-index: 8;
@@ -44,10 +44,11 @@
   position: relative;
   margin-top: -15%;
 }
-.newWaveFooter{
+.newWaveContact{
   width: 100%;
   position: relative;
-  margin-top: -15%;
+  /* margin-top: -15%; */
+  margin-bottom: -0.5%;
 }
 
 .boxEspecialities{

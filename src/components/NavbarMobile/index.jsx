@@ -39,7 +39,7 @@ export default function NavbarMobile() {
           <section className="sectionLogo">
             <div className="centerImg">
               <img
-                onClick={() =>{ 
+                onClick={() => {
                   window.scrollTo(0, 0);
                 }}
                 src={logoMobile}
@@ -48,13 +48,16 @@ export default function NavbarMobile() {
               />
             </div>
             <ul className="container">
-            <li className="container-item" onClick={() =>{ 
+              <li
+                className="container-item"
+                onClick={() => {
                   window.scrollTo(0, 0);
-                }}>
-              <a href="#home" className="link">
-                Início
-              </a>
-            </li>
+                }}
+              >
+                <a href="#home" className="link">
+                  Início
+                </a>
+              </li>
               <li
                 className="container-item"
                 exact="true"

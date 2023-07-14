@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logos/MarcaD'águaLogo1.png";
+import logo from "../../assets/logos/MarcaD'águaLogo-Preto.png";
 import "./styles.css";
 import { useLocation } from "react-router-dom";
 
@@ -45,12 +45,6 @@ export default function Navbar() {
         <li className="item">
           <a href="#infos" className="link">
             Informações
-          </a>
-        </li>
-
-        <li className="item">
-          <a href="#following" className="link">
-            Acompanhamento
           </a>
         </li>
 

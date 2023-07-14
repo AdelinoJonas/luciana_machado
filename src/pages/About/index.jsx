@@ -3,7 +3,6 @@ import perfil from "../../assets/waves/about/perfilbg.png";
 import "./style.css";
 
 export default function About() {
-
   const whatsappNumber = 4199166424;
 
   function handleOpenWhatsapp(whatsappNumber) {
@@ -25,7 +24,12 @@ export default function About() {
             principalmente atendimento nutricional na Estética e Saúde da
             Mulher. Com planos alimentares personalizados.
           </p>
-          <button className="contactButton" onClick={() => handleOpenWhatsapp(whatsappNumber)}>Entre em contato</button>
+          <button
+            className="contactButton"
+            onClick={() => handleOpenWhatsapp(whatsappNumber)}
+          >
+            Entre em contato
+          </button>
         </div>
         <div className="imgBox">
           <img className="face" src={perfil} alt="Meu rosto" />

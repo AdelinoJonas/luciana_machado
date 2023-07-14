@@ -130,8 +130,12 @@ export default function Focused() {
       </div>
 
       {/* <footer> */}
-          <img src={waveTransparent} alt="background wave" className="waveTransparent" />
-          <img src={waveGreen} alt="background wave" className="waveGreen" />
+      <img
+        src={waveTransparent}
+        alt="background wave"
+        className="waveTransparent"
+      />
+      <img src={waveGreen} alt="background wave" className="waveGreen" />
       {/* </footer> */}
     </div>
   );

@@ -57,7 +57,7 @@ export default function Education() {
             </li>
           </ul>
         </div>
-          <img src={newWave} alt="background wave" className="newWave" />
+        <img src={newWave} alt="background wave" className="newWave" />
       </div>
       <Focused />
     </>
