@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/logos/MarcaD'águaLogo1.png";
 import "./styles.css";
-import { NavLink, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const { pathname } = useLocation();

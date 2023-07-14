@@ -159,6 +159,10 @@
   @media (max-width: 1000px) {
     width: 80%;
   }
+  @media (max-width: 500px) {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 .cardContainer{
@@ -171,14 +175,15 @@
   margin-bottom: 5rem;
   margin-left: 5rem;
   background-color: #F5A14F;
-  border-radius: 30% 70% 70% 30% / 42% 39% 61% 58% ;
+  border-radius: 77% 23% 80% 20% / 20% 83% 17% 80%  ;
   -webkit-box-shadow: -19px 47px 0px -1px #D28563;
   -moz-box-shadow: -19px 47px 0px -1px #D28563;
   box-shadow: -19px 47px 0px -1px #D28563;
   @media (max-width: 1000px) {
-    width: 80%;
+    width: 90%;
     margin-left: -1rem;
     flex-direction: column;
+    /* margin-bottom: 1rem; */
   }
 
 }
@@ -188,12 +193,13 @@
   padding: 1rem 5rem 3rem 1rem;
   text-align: start;
   font-size: 1.3rem;
-
-  @media (max-width: 1000px) {
-
-    /* height: max-content;
-    padding: 5rem 2rem;
-    margin-left: -3rem;
-    font-size: 1.3rem; */
+  
+  @media (max-width: 500px) {
+    
+    width: 80%;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    padding: 1rem 3rem 1rem 1rem;
+    
   }
 }
