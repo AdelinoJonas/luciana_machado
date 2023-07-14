@@ -31,6 +31,12 @@ export default function Navbar() {
         </li>
 
         <li className="item">
+          <a href="#education" className="link">
+            Formação
+          </a>
+        </li>
+
+        <li className="item">
           <a href="#specialities" className="link">
             Especialidades
           </a>
