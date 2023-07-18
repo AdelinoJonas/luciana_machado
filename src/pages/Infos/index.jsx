@@ -129,7 +129,7 @@ export default function Infos() {
               tratamento. Utilizada para evitar a monotonia alimentar, é útil
               para variar a sua alimentação, desta forma, permanece a quantidade
               de calorias e macronutrientes da sua dieta, indicados pelo
-              profissional de nutrição sem prejudicar seu objeto.
+              profissional de nutrição sem prejudicar seu objetivo.
             </p>
             <img src={piramide} alt="Pirâmide alimentar" className="imgInfo"/>
             </div>

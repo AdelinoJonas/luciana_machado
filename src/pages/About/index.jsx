@@ -6,7 +6,7 @@ export default function About() {
   const whatsappNumber = 4199166424;
 
   function handleOpenWhatsapp(whatsappNumber) {
-    const whatsappLink = `https://wa.me/55${whatsappNumber}?text=Olá,%20Pode%20me%20ajudar%20com%20minha%20contabilidade?`;
+    const whatsappLink = `https://wa.me/55${whatsappNumber}?text=Olá,%20Gostaria%20de%20melhorar%20minha%20alimentação,%20pode%20me%20ajudar?`;
     window.open(whatsappLink);
   }
   return (

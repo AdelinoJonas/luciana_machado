@@ -1,15 +1,6 @@
 .containerContact {
   position: relative;
   margin-top: -1rem;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)
-  ),url(../../assets/photos/Mockup4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
 }
 
 .headerContact{
@@ -20,44 +11,82 @@
 .waveContact2{
   width: 100%;
   position: relative;
-  z-index: 44;
-  margin-top: -0.1%;
-}
-
-.waveInv2{
-  width: 100%;
-  position: relative;
   z-index: 8;
-  margin-top: -20%;
+  margin-top: -0.1%;
 }
 
 .waveContact1{
   width: 100%;
   position: relative;
   z-index: 8;
-  margin-top: -25%;
+  margin-top: -0%;
 }
 
 .newWaveContact{
   width: 100%;
   position: relative;
-  /* margin-top: -15%; */
-  margin-bottom: -0.5%;
 }
 
-.boxContactleft{
-  margin-top: -10%;
-  width: 97vw;
+.boxContact{
+ display: flex;
+  margin-bottom: 2%;
+}
+.boxContactLeft{
+  width: 50vw;
   display: flex;
-  justify-content: end;
+  flex-direction: column;
+
+}
+
+.boxContactLeft p {
+  color: #000;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  padding: 0 2rem;
+  text-align: justify;
+  display: flex;
+ 
+}
+
+.emailContact {
+  color: #000;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxContactLeft a{
+ all: unset;
+ cursor: pointer;
+}
+
+.contactIcon{
+  width: 50px;
+  height: 50px;
+}
+
+.contactIcon:hover{
+  width: 50px;
+  height: 50px;
+  color: #266D45;
+}
+
+.linksContact{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .boxContactRight{
 
-  width: 40%;
+  margin-top: -7%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  padding: 0 2rem 0 2rem;
+  padding: 0 2rem 2rem 2rem;
   @media (max-width: 1000px) {
     width: 100%;
   }
@@ -68,10 +97,12 @@
   gap: 0.5rem;
   color: #000;
 }
-.boxContactRight h3 {
+.containerContact h3 {
   color: #000;
   font-size: 2.2rem;
   font-weight: 500;
+  margin-top: -3%;
+  margin-left: 3rem;
 }
 .boxContactRight span {
   color:#000;
