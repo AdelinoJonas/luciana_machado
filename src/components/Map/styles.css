@@ -1,0 +1,7 @@
+.mapWrapper{
+  height: 60vh;
+  width: 100%;
+  margin-top: 1rem;
+  border: 6px groove rgba(6, 69, 6, 0.315);
+}
+

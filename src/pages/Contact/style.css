@@ -5,11 +5,10 @@
     to right,
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.7)
-  ),url(../../assets/photos/Mockup7.jpg);
+  ),url(../../assets/photos/Mockup4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
 
 }
 
@@ -39,11 +38,6 @@
   margin-top: -25%;
 }
 
-.newWave{
-  width: 100%;
-  position: relative;
-  margin-top: -15%;
-}
 .newWaveContact{
   width: 100%;
   position: relative;
@@ -51,11 +45,37 @@
   margin-bottom: -0.5%;
 }
 
-.boxEspecialities{
+.boxContactleft{
+  margin-top: -10%;
+  width: 97vw;
+  display: flex;
+  justify-content: end;
+}
 
+.boxContactRight{
+
+  width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-
   padding: 0 2rem 0 2rem;
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
+}
+
+.location {
+  display: flex;
+  gap: 0.5rem;
+  color: #000;
+}
+.boxContactRight h3 {
+  color: #000;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.boxContactRight span {
+  color:#000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
 }

@@ -17,7 +17,9 @@
 
 .row{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
   @media (max-width: 1000px) {
     flex-direction: column-reverse;
   }
@@ -29,6 +31,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-right: 2rem;
+
   @media (max-width: 1000px) {
     width: 100%;
   }
@@ -43,10 +47,10 @@
 }
 
 .textDescription{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: justify;
-  line-height: 2.3rem;
-  margin-bottom: 2rem;
+  line-height: 2rem;
+
 
   @media (max-width: 1000px) {
     padding: 0 2rem 0 2rem;
@@ -56,11 +60,11 @@
 }
 
 .imgBox{
-  width: 40%;
+  width: 50%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius:0 25%;
   @media (max-width: 1000px) {
     width: 100%;
     display: flex;
@@ -86,6 +90,7 @@
 .contactButton{
   all: unset;
   background-color: #FACEA5;
+  margin-top: 3rem;
   font-size: 2rem;
   font-weight: 700;
   padding: 1rem 1.5rem;

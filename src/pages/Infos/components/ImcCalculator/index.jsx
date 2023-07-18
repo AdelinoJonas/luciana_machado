@@ -41,13 +41,10 @@ export default function Imc() {
       <section className="imcBody">
         <div className="imcDescription">
           <p>
-            É como uma balança virtual que dá uma espiada no seu corpo para ver
-            se você está no caminho certo da saúde. É como um amigão que quer te
-            ajudar a descobrir se você está comendo direitinho ou se precisa
-            ajustar sua rotina. Basicamente, o IMC é um cálculo que leva em
-            conta a sua altura e o seu peso. Ele diz se você está acima, abaixo
-            ou no peso ideal. Não é uma fórmula perfeita, mas dá uma boa noção
-            de como anda sua situação.
+            Basicamente, o IMC é um cálculo que leva em conta a sua altura e o
+            seu peso. Ele diz se você está acima, abaixo ou no peso ideal. Não é
+            uma fórmula perfeita, mas dá uma boa noção de como anda sua
+            situação.
           </p>
           <p>
             Mas para que serve isso? Bom, o IMC ajuda a avaliar se você está em
