@@ -17,7 +17,7 @@ export default function About() {
           <p className="textDescription">
             Sou uma nutricionista apaixonada pela nutrição clínica, estética e
             pela docência! Com vasta experiência em nutrição clínica, trabalho
-            com indivíduos que possuem condições específicas de saúde, como
+            com pessoas que possuem condições específicas de saúde, como
             diabetes, hipertensão e distúrbios alimentares, fornecendo
             orientação personalizada e planos alimentares adaptados às suas
             necessidades.

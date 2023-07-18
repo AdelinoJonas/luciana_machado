@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   margin-top: -7%;
-  height: 70vh;
 }
 
 .calculator h1{ 
@@ -51,7 +50,7 @@
 }
 
 .input-container {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   width: 50%;
 }
 
@@ -86,16 +85,47 @@ button:hover {
   color: #266D45;
 }
 
+.hiddenContact{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.contactHideButton{
+  all: unset;
+  background-color: #FACEA5;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #266D45;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  -webkit-box-shadow: 11px 14px 20px 0px rgba(210,133,99,1);
+  -moz-box-shadow: 11px 14px 20px 0px rgba(210,133,99,1);
+  box-shadow: 11px 14px 20px 0px rgba(210,133,99,1);
+  
+}
+
+.contactHideButton:hover {
+  background-color: #BACE10;
+}
+
 .message {
-  background-color: #facea55e;
+  background-color: #bbce108f;
   padding: 2rem;
-  border-radius: 20%;
-  margin-top: 2rem;
+  border-radius: 20px;
   margin-left: 2rem;
+  margin-bottom: 3rem;
   font-weight: bold;
   font-size: 1rem;
   letter-spacing: 0.02rem;
   line-height: 1.5rem;
   color: #71371d;
   text-align: justify;
+}
+
+.newWave{
+  width: 100%;
+  position: relative;
 }

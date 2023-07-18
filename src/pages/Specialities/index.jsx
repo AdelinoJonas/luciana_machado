@@ -29,6 +29,9 @@ export default function Education() {
                 Paraná
               </li>
               <li className="educationItem">
+                Mestre em Biotecnologia - Universidade Positivo
+              </li>
+              <li className="educationItem">
                 Estética e Dermocosmética Avançada Internacional pela Faculdade
                 Inspirar.
               </li>
