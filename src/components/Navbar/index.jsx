@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/logos/MarcaD'águaLogo-Preto.png";
+import logo from "../../assets/logos/marcadagualogo.png";
 import "./styles.css";
 import { Link, useLocation } from "react-router-dom";
 

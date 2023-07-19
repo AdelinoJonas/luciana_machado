@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/footer/LuLogo-removebg.png";
+import logo from "../../assets/footer/lulogo-removebg.png";
 import jan from "../../assets/footer/logo.svg";
 import "./styles.css";
 

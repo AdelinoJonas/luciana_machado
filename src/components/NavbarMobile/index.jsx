@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { RiMenuLine } from "react-icons/ri";
 import logoLu from "../../assets/logos/logo.png";
-import logoMobile from "../../assets/logos/MarcaD'águaLogo1.png";
+import logoMobile from "../../assets/logos/marcadagualogo1.png";
 import "./styles.css";
 import { useNavigate } from "react-router";
 import { Link, useLocation } from "react-router-dom";
