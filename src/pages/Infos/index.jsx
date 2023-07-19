@@ -7,6 +7,8 @@ import modulo from "../../assets/Infos/escala-de-bristol.jpeg";
 import health from "../../assets/Infos/womanHealth.avif";
 import "./style.css";
 import Imc from "./components/ImcCalculator";
+import waveTransparent from "../../assets/waves/home/waveTransparent.svg";
+import waveGreen from "../../assets/waves/home/waveGreen.svg";
 
 export default function Infos() {
   return (
@@ -136,6 +138,12 @@ export default function Infos() {
           </div>
         </div>
       </div>
+        <img
+        src={waveTransparent}
+        alt="background wave"
+        className="waveTransparent"
+      />
+      <img src={waveGreen} alt="background wave" className="waveGreen" />
     </>
   );
 }

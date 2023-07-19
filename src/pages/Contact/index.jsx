@@ -2,7 +2,7 @@ import React from "react";
 import wave3 from "../../assets/waves/home/waveInverted3.svg";
 import wave2 from "../../assets/infos/waveInvert.svg";
 import orange from "../../assets/infos/waveOrange.svg";
-import wave1 from "../../assets/waves/home/waveInverted1.svg";
+import wave1 from "../../assets/infos/waveGreenInverted.svg";
 import Map from "../../components/Map";
 import { ImWhatsapp } from "react-icons/im";
 import { BsTelephoneInbound } from "react-icons/bs";
@@ -12,6 +12,8 @@ import { CiLocationOn } from "react-icons/ci";
 import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BiLogoTelegram } from "react-icons/bi";
+import waveTransparent from "../../assets/waves/home/waveTransparent.svg";
+import waveGreen from "../../assets/waves/home/waveGreen.svg";
 import "./style.css";
 
 export default function Contact() {
@@ -33,6 +35,7 @@ export default function Contact() {
   return (
     <div id="contact" className="containerContact">
       <div className="headerContact">
+        <img src={wave1} alt="background wave" className="waveContact2" />
         <img src={wave2} alt="background wave" className="waveContact1" />
       </div>
 
@@ -84,7 +87,12 @@ export default function Contact() {
         </div>
       </div>
 
-      <img src={orange} alt="background wave" className="newWaveContact" />
+      <img
+        src={waveTransparent}
+        alt="background wave"
+        className="waveTransparent"
+      />
+      <img src={waveGreen} alt="background wave" className="waveGreen" />
     </div>
   );
 }

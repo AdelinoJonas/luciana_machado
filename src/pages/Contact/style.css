@@ -12,14 +12,14 @@
   width: 100%;
   position: relative;
   z-index: 8;
-  margin-top: -0.1%;
+  margin-top: -1%;
 }
 
 .waveContact1{
   width: 100%;
   position: relative;
-  z-index: 8;
-  margin-top: -0%;
+  z-index: 4;
+  margin-top: -20%;
 }
 
 .newWaveContact{
@@ -29,11 +29,22 @@
 
 .boxContact{
  display: flex;
-  margin-bottom: 2%;
+  margin-bottom: 20%;
   @media (max-width: 800px) {
     flex-direction: column;   
     gap: 3rem; 
   }
+}
+
+.waveGreen{
+  width: 100%;
+  position: relative;
+  margin-top: -20%;
+}
+.waveTransparent{
+  width: 100%;
+  position: relative;
+  margin-top: -20%;
 }
 
 .boxContactLeft{
