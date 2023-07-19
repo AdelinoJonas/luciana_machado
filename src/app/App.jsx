@@ -15,12 +15,12 @@ function App() {
     <BrowserRouter>
       <nav>{screenWidth > 1000 ? <Navbar /> : <NavbarMobile />}</nav>
       <main>
-        <Home id="home" />
-        <About id="about" />
-        <Specialities id="specialities" />
-        <Infos id="infos" />
+        <Home />
+        <About />
+        <Specialities />
+        <Infos />
         {/* <Following id="following" /> */}
-        <Contact id="contact" />
+        <Contact />
         <Footer />
       </main>
     </BrowserRouter>

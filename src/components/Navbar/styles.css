@@ -4,10 +4,10 @@
   background-color: #FACEA5;
   opacity: 0.9;
   position: fixed;
-  z-index: 800;
+  z-index: 999;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: .5rem ;
 }
 
@@ -22,19 +22,19 @@
 
 .allItems{
   display: flex;
-  width: 80%;
-  align-items: center;
-  justify-content: center;
-  margin-right: 2rem;
-  gap: 2rem;
+  width: 70%;
+  height: 80%;
+  align-items: center; 
+  justify-content: space-evenly;
 }
 
-.allItems .item{
+.item{
   all: unset;
-  width: max-content;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   cursor: pointer;
-
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
     &:hover {
     color: #266D45;
     font-size: 1.3rem;
@@ -42,41 +42,29 @@
     opacity: 0.8;
     transition: all 0.3s;
   }
+}
 
-  &.active {
-    color: #F5A14F;
-    font-size: 1.3rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-right: 6px groove #fff;
-    border-left: 6px groove #fff;
-    border-radius: 50px;
-    border-top: none;
-  }
+.item.active {
+  font-weight: bold;
+  color: red;
 }
 
 .link{
   all: unset;
-  width: max-content;
+  width: 100%;
   font-size: 1.2rem;
   cursor: pointer;
+  margin-left: 0.5rem;
 
     &:hover {
-    color: #266D45;
     font-size: 1.3rem;
     font-weight: 700;
     opacity: 0.8;
     transition: all 0.3s;
   }
+}
 
-  &.active {
-    color: #F5A14F;
-    font-size: 1.3rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-right: 6px groove #fff;
-    border-left: 6px groove #fff;
-    border-radius: 50px;
-    border-top: none;
-  }
+.linkIcon{
+  height: 30px;
+  width: 30px;
 }
