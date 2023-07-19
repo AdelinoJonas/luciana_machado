@@ -4,14 +4,24 @@ import logo from "../../assets/logos/logo.png";
 import logoMobile from "../../assets/logos/MarcaD'águaLogo1.png";
 import "./styles.css";
 import { useNavigate } from "react-router";
+import { Link, useLocation } from "react-router-dom";
 
 export default function NavbarMobile() {
   const navigate = useNavigate();
+  const { pathname } = useLocation();
+
   const [openMenu, setOpenMenu] = useState(false);
 
   function handleToggleMenu() {
     setOpenMenu(!openMenu);
   }
+
+  const handleHome = (e) => {
+    const clickedLink = e.target.getAttribute("href");
+    if (pathname !== clickedLink) {
+      window.scrollTo(0, 0);
+    }
+  };
 
   const menuRef = useRef(null);
 
@@ -28,12 +38,30 @@ export default function NavbarMobile() {
     };
   }, [openMenu, menuRef]);
 
+  const [activeItem, setActiveItem] = useState("home");
+
+  const handleClick = (e, item) => {
+    setActiveItem(item);
+    const clickedLink = e.target.getAttribute("href");
+
+    if (pathname !== clickedLink) {
+      const targetElement = document.getElementById(clickedLink.slice(1));
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+
+        setTimeout(() => {
+          window.location.href = clickedLink;
+        }, 500);
+      }
+    }
+  };
+
   return (
     <div className="containerNav">
       <a onClick={handleToggleMenu}>
         <RiMenuLine className="menu" />
       </a>
-      <img src={logo} alt="logo" className="logoHeader" />
+      <img src={logo} alt="logo" className="logoHeader" onClick={handleHome} />
       {openMenu && (
         <div onClick={handleToggleMenu} className="boxdrop">
           <section className="sectionLogo">
@@ -48,70 +76,70 @@ export default function NavbarMobile() {
               />
             </div>
             <ul className="container">
-              <li
-                className="container-item"
-                onClick={() => {
-                  window.scrollTo(0, 0);
-                }}
+              <Link
+                className={`container-item ${
+                  activeItem === "home" ? "active" : ""
+                }`}
+                onClick={(e) => handleClick(e, "home")}
               >
                 <a href="#home" className="link">
                   Início
                 </a>
-              </li>
-              <li
-                className="container-item"
-                exact="true"
-                active="true"
-                to="/"
-                onClick={handleToggleMenu}
+              </Link>
+              <Link
+                className={`container-item ${
+                  activeItem === "about" ? "active" : ""
+                }`}
+                onClick={(e) => handleClick(e, "about")}
               >
-                Início
-              </li>
+                <a href="#about" className="link">
+                  Quem sou
+                </a>
+              </Link>
 
-              <li
-                className="container-item"
-                active="false"
-                to="/about"
-                onClick={handleToggleMenu}
+              <Link
+                className={`container-item ${
+                  activeItem === "education" ? "active" : ""
+                }`}
+                onClick={(e) => handleClick(e, "education")}
               >
-                Quem sou
-              </li>
+                <a href="#education" className="link">
+                  Formação
+                </a>
+              </Link>
 
-              <li
-                className="container-item"
-                active="false"
-                to="/services"
-                onClick={handleToggleMenu}
+              <Link
+                className={`container-item ${
+                  activeItem === "specialities" ? "active" : ""
+                }`}
+                onClick={(e) => handleClick(e, "specialities")}
               >
-                Especialidades
-              </li>
+                <a href="#specialities" className="link">
+                  Especialidades
+                </a>
+              </Link>
 
-              <li
-                className="container-item"
-                active="false"
-                to="/customers"
-                onClick={handleToggleMenu}
+              <Link
+                className={`container-item ${
+                  activeItem === "infos" ? "active" : ""
+                }`}
+                onClick={(e) => handleClick(e, "infos")}
               >
-                Calculadora IMC
-              </li>
+                <a href="#infos" className="link">
+                  Informações
+                </a>
+              </Link>
 
-              <li
-                className="container-item"
-                active="false"
-                to="/links"
-                onClick={handleToggleMenu}
+              <Link
+                className={`container-item ${
+                  activeItem === "contact" ? "active" : ""
+                }`}
+                onClick={(e) => handleClick(e, "contact")}
               >
-                Curiosidades
-              </li>
-
-              <li
-                className="container-item"
-                active="false"
-                to="/contact"
-                onClick={handleToggleMenu}
-              >
-                Contato
-              </li>
+                <a href="#contact" className="link">
+                  Contato
+                </a>
+              </Link>
             </ul>
           </section>
         </div>

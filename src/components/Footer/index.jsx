@@ -10,13 +10,17 @@ export default function Footer() {
   return (
     <div className="containerFooter">
       <div className="leftFooter">
-        <img src={logo} alt="logo" className="leftImg"/>
+        <img src={logo} alt="logo" className="leftImg" />
         <p>Luciana Machado - Nutricionista&copy;&reg;{year}</p>
       </div>
       <div className="rightFooter">
-        <a href="https://adelinoportfolio.netlify.app/" target="_blank" rel="noopener noreferrer">
-        <img src={jan} alt="link para Jonas desenolvedor de software" />
-          </a>
+        <a
+          href="https://adelinoportfolio.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={jan} alt="link para Jonas desenolvedor de software" />
+        </a>
       </div>
     </div>
   );

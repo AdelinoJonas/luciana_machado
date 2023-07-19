@@ -69,76 +69,93 @@ export default function Infos() {
             <div className="rowInfo">
               <p>
                 A mulher passa por diversas fases ao longo da vida adulta que
-                requerem atenção com a alimentação devido as suas peculiaridades.
-                Sendo que em cada fase necessita de cuidados específicos e
-                estratégias para promover saúde e qualidade de vida. Cuidados na
-                Tensão Pré Menstrual, Síndrome dos Ovários Policísticos,
-                Endometriose, Candidíase e Menopausa. Além dos cuidados com unhas,
-                cabelos e pele que sofrem transformações devido a cada fase vivida
-                pela mulher, e também no processo de envelhecimento. A alimentação
-                pode ter uma interferência direta, pois alguns alimentos possuem
-                benefícios para a prevenção e auxiliam no tratamento de diversas
-                doenças e distúrbios que ocorrem na vida da mulher.
+                requerem atenção com a alimentação devido as suas
+                peculiaridades. Sendo que em cada fase necessita de cuidados
+                específicos e estratégias para promover saúde e qualidade de
+                vida. Cuidados na Tensão Pré Menstrual, Síndrome dos Ovários
+                Policísticos, Endometriose, Candidíase e Menopausa. Além dos
+                cuidados com unhas, cabelos e pele que sofrem transformações
+                devido a cada fase vivida pela mulher, e também no processo de
+                envelhecimento. A alimentação pode ter uma interferência direta,
+                pois alguns alimentos possuem benefícios para a prevenção e
+                auxiliam no tratamento de diversas doenças e distúrbios que
+                ocorrem na vida da mulher.
               </p>
-              <img src={health} alt="Saúde da mulher" className="imgInfo"/>
+              <img src={health} alt="Saúde da mulher" className="imgInfo" />
             </div>
           </div>
           <div className="boxType">
             <h1>Modulação intestinal</h1>
             <div className="rowReverseInfo">
-            <p>
-              Já sabemos da importância do nosso intestino, que hoje é
-              considerado como nosso segundo cérebro. A modulação Intestinal é
-              um conjunto de intervenções aplicadas ao trato gastrointestinal,
-              com o objetivo principal de reequilibrar as proporções de
-              bactérias que compõe a microbiota. A restauração da composição da
-              microbiota intestinal deve ser realizada em termos qualitativos e
-              quantitativos, de modo que diminua a incidência de bactérias
-              patogênicas, em sua maioria responsáveis por esses desequilíbrios.
-              Com a modulação da microbiota intestinal é possível obter diversos
-              benefícios, como melhora dos sintomas gastrointestinais,
-              disposição, fortalecimento do sistema imunológico, entre outros.
-            </p>
-            <img src={modulo} alt="escala de bristol de obstipação" className="imgInfo"/>
+              <p>
+                Já sabemos da importância do nosso intestino, que hoje é
+                considerado como nosso segundo cérebro. A modulação Intestinal é
+                um conjunto de intervenções aplicadas ao trato gastrointestinal,
+                com o objetivo principal de reequilibrar as proporções de
+                bactérias que compõe a microbiota. A restauração da composição
+                da microbiota intestinal deve ser realizada em termos
+                qualitativos e quantitativos, de modo que diminua a incidência
+                de bactérias patogênicas, em sua maioria responsáveis por esses
+                desequilíbrios. Com a modulação da microbiota intestinal é
+                possível obter diversos benefícios, como melhora dos sintomas
+                gastrointestinais, disposição, fortalecimento do sistema
+                imunológico, entre outros.
+              </p>
+              <img
+                src={modulo}
+                alt="escala de bristol de obstipação"
+                className="imgInfo"
+              />
             </div>
           </div>
           <div className="boxType">
             <h1>Avaliação Nutricional</h1>
             <div className="rowInfo">
-            <p>
-              O objetivo da avaliação nutricional é de identificar o estado
-              nutricional e assim reconhecer quais as necessidades alimentares
-              cada indivíduo possui. Dessa forma, é possível intervir
-              adequadamente para a manutenção ou recuperação da saúde. A
-              identificação dos distúrbios e riscos nutricionais, assim como a
-              gravidade deles, ajuda a definir quais as medidas devem ser
-              adotadas como respostas às intervenções nutricionais.
-            </p>
-            <img src={adipometro} alt="foto de Adipometro" className="imgInfo"/>
+              <p>
+                O objetivo da avaliação nutricional é de identificar o estado
+                nutricional e assim reconhecer quais as necessidades alimentares
+                cada indivíduo possui. Dessa forma, é possível intervir
+                adequadamente para a manutenção ou recuperação da saúde. A
+                identificação dos distúrbios e riscos nutricionais, assim como a
+                gravidade deles, ajuda a definir quais as medidas devem ser
+                adotadas como respostas às intervenções nutricionais.
+              </p>
+              <img
+                src={adipometro}
+                alt="foto de Adipometro"
+                className="imgInfo"
+              />
             </div>
           </div>
           <div className="boxType">
             <h1>Educação Nutricional </h1>
             <div className="rowReverseInfo">
-            <p>
-              Ouvimos sempre sobre reeducação alimentar, porém acredito que muitos aprendem hábitos que parecem saudáveis, mas podem
-              prejudicar a sua saúde. Recebendo acompanhamento adequado de um
-              nutricionista, é possível corrigir hábitos alimentares que foram
-              aprendidos e enraizados. Através das consultas é possível
-              substituir os mesmos por outros saudáveis que atendam às
-              necessidades atuais de cada momento da vida do indivíduo, desta
-              forma, adequando bons hábitos à sua rotina e as suas preferências.Junto com a tabela nutricional que contém alimentos escolhidos para o seu
-              tratamento. Utilizada para evitar a monotonia alimentar, é útil
-              para variar a sua alimentação, desta forma, permanece a quantidade
-              de calorias e macronutrientes da sua dieta, indicados pelo
-              profissional de nutrição sem prejudicar seu objetivo.
-            </p>
-            <img src={piramide} alt="Pirâmide alimentar" className="imgInfo"/>
+              <p>
+                Ouvimos sempre sobre reeducação alimentar, porém acredito que
+                muitos aprendem hábitos que parecem saudáveis, mas podem
+                prejudicar a sua saúde. Recebendo acompanhamento adequado de um
+                nutricionista, é possível corrigir hábitos alimentares que foram
+                aprendidos e enraizados. Através das consultas é possível
+                substituir os mesmos por outros saudáveis que atendam às
+                necessidades atuais de cada momento da vida do indivíduo, desta
+                forma, adequando bons hábitos à sua rotina e as suas
+                preferências.Junto com a tabela nutricional que contém alimentos
+                escolhidos para o seu tratamento. Utilizada para evitar a
+                monotonia alimentar, é útil para variar a sua alimentação, desta
+                forma, permanece a quantidade de calorias e macronutrientes da
+                sua dieta, indicados pelo profissional de nutrição sem
+                prejudicar seu objetivo.
+              </p>
+              <img
+                src={piramide}
+                alt="Pirâmide alimentar"
+                className="imgInfo"
+              />
             </div>
           </div>
         </div>
       </div>
-        <img
+      <img
         src={waveTransparent}
         alt="background wave"
         className="waveTransparent"

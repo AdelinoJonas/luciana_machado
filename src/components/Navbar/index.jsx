@@ -14,7 +14,7 @@ export default function Navbar() {
     if (pathname !== clickedLink) {
       const targetElement = document.getElementById(clickedLink.slice(1));
       if (targetElement) {
-        targetElement.scrollIntoView({ behavior: 'smooth' });
+        targetElement.scrollIntoView({ behavior: "smooth" });
 
         setTimeout(() => {
           window.location.href = clickedLink;
@@ -39,7 +39,6 @@ export default function Navbar() {
           className={`item ${activeItem === "home" ? "active" : ""}`}
           onClick={(e) => handleClick(e, "home")}
         >
-
           <a href="#home" className="link">
             Início
           </a>
@@ -49,7 +48,6 @@ export default function Navbar() {
           className={`item ${activeItem === "about" ? "active" : ""}`}
           onClick={(e) => handleClick(e, "about")}
         >
-
           <a href="#about" className="link">
             Quem sou
           </a>
@@ -59,7 +57,6 @@ export default function Navbar() {
           className={`item ${activeItem === "education" ? "active" : ""}`}
           onClick={(e) => handleClick(e, "education")}
         >
-
           <a href="#education" className="link">
             Formação
           </a>
@@ -69,7 +66,6 @@ export default function Navbar() {
           className={`item ${activeItem === "specialities" ? "active" : ""}`}
           onClick={(e) => handleClick(e, "specialities")}
         >
-
           <a href="#specialities" className="link">
             Especialidades
           </a>
@@ -79,7 +75,6 @@ export default function Navbar() {
           className={`item ${activeItem === "infos" ? "active" : ""}`}
           onClick={(e) => handleClick(e, "infos")}
         >
-
           <a href="#infos" className="link">
             Informações
           </a>
@@ -89,7 +84,6 @@ export default function Navbar() {
           className={`item ${activeItem === "contact" ? "active" : ""}`}
           onClick={(e) => handleClick(e, "contact")}
         >
-
           <a href="#contact" className="link">
             Contato
           </a>
