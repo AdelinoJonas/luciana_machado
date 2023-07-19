@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { RiMenuLine } from "react-icons/ri";
-import logoLu from "../../assets/logos/logo.png";
+// import logoLu from "../../assets/logos/logo.png";
 import logoMobile from "../../assets/logos/marcadagualogo1.png";
 import "./styles.css";
 import { useNavigate } from "react-router";
@@ -61,7 +61,7 @@ export default function NavbarMobile() {
       <a onClick={handleToggleMenu}>
         <RiMenuLine className="menu" />
       </a>
-      <img src={logoLu} alt="logo" className="logoHeader" onClick={handleHome} />
+      {/* <img src={logoLu} alt="logo" className="logoHeader" onClick={handleHome} /> */}
       {openMenu && (
         <div onClick={handleToggleMenu} className="boxdrop">
           <section className="sectionLogo">
