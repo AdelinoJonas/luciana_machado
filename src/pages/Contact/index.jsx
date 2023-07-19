@@ -3,7 +3,7 @@ import wave3 from "../../assets/waves/home/waveInverted3.svg";
 import wave2 from "../../assets/infos/waveInvert.svg";
 import orange from "../../assets/infos/waveOrange.svg";
 import wave1 from "../../assets/infos/waveGreenInverted.svg";
-import Map from "../../components/Map";
+import Map from "./components/Map";
 import { ImWhatsapp } from "react-icons/im";
 import { BsTelephoneInbound } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
