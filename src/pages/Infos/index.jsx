@@ -1,9 +1,9 @@
 import React from "react";
 import wave3 from "../../assets/waves/home/waveGreenInverted.svg";
 import wave2 from "../../assets/waves/home/waveInvertedTransparent.svg";
-import piramide from "../../assets/Infos/piramide-alimentar-atualizada.jpg";
+import piramide from "../../assets/Infos/piramidealimentaratualizada.jpg";
 import adipometro from "../../assets/Infos/adipometro.webp";
-import modulo from "../../assets/Infos/escala-de-bristol.jpeg";
+import modulo from "../../assets/Infos/escaladebristol.jpeg";
 import health from "../../assets/Infos/womanHealth.avif";
 import "./style.css";
 import Imc from "./components/ImcCalculator";
