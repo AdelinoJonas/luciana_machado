@@ -66,7 +66,8 @@ export default function Contact() {
             
           </div>
           <p className="emailContact">
-            <HiOutlineMail className="contactIcon"/>E-mail: nutrilumachado@gmail.com
+            <HiOutlineMail className="emailIcon"/>
+            E-mail: nutrilumachado@gmail.com
           </p>
         
         </div>
@@ -83,7 +84,7 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* <img src={orange} alt="background wave" className="newWaveContact" /> */}
+      <img src={orange} alt="background wave" className="newWaveContact" />
     </div>
   );
 }

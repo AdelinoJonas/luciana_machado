@@ -30,12 +30,19 @@
 .boxContact{
  display: flex;
   margin-bottom: 2%;
+  @media (max-width: 800px) {
+    flex-direction: column;   
+    gap: 3rem; 
+  }
 }
+
 .boxContactLeft{
   width: 50vw;
   display: flex;
   flex-direction: column;
-
+  @media (max-width: 800px) {
+    width: 100%;    
+  }
 }
 
 .boxContactLeft p {
@@ -88,7 +95,7 @@
   flex-direction: column;
   padding: 0 2rem 2rem 2rem;
   @media (max-width: 1000px) {
-    width: 100%;
+    width: 85%;
   }
 }
 
@@ -109,4 +116,10 @@
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
+}
+
+.emailIcon{
+  margin-right: 1rem;
+  width: 3rem;
+  height: 3rem;
 }
