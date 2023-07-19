@@ -1,18 +1,73 @@
-.container {
-  height: 100vh;
+.containerHome {
+  width: 100%;
+  height:100vh;
   background-image: url(../../assets/photos/Mockup2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
-  /* background-attachment: fixed; */
+  background-position: center;
   display: flex;
-  align-items: end;
-}
+  flex-direction: column;
+  justify-content: end;
+  position: relative;
+  z-index: 1;
 
-button{
-  margin: 0 0 30vh 30vw;
-
-  @media (max-width: 900px) {
-    margin: 0 0 25vh 25vw;
+  /* @media (max-width: 1000px) {
+    background-size: cover;
+    background-position: center;
+    justify-content: end;
+  } */
+  
+  @media (max-width: 680px) {
+    /* height:60vh; */
+    background-image: url(../../assets/photos/Mockup8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  @media (max-width: 400px) {
+    height:60vh;
+    background-image: url(../../assets/photos/Mockup8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
   }
 }
+
+ .wave1{
+  position: absolute;
+  z-index: 6;
+  width: 100%;
+
+  /* @media (max-width: 625px) {
+    height:25vh;
+  }
+  @media (max-width: 420px) {
+    height:20vh;
+  } */
+
+}
+ .wave2{
+  min-width: 100%;
+  height: 150px;
+  position: relative;
+  z-index: 6;
+
+}
+
+.whatsApp{
+  position: absolute;
+  z-index: 50;
+  width: 13%;
+  right: 2%;
+  bottom: 15%;
+  cursor: pointer;
+  @media (max-width: 550px) {
+    width: 20%;
+    right: 1%;
+    bottom: 8%;
+  }
+  @media (max-width: 550px) {
+    width: 100px;
+  }
+}
+
