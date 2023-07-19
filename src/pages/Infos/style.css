@@ -24,6 +24,9 @@
 .containerInfos h1{
   text-align: start;
   font-size: 2rem;
+  @media (max-width: 800px) {
+    text-align: center;
+  }
 }
 
 .containerInfos p{
@@ -74,18 +77,27 @@
   justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
+  @media (max-width: 800px) {
+    flex-direction: column-reverse;    
+  }
 }
 
 .rowInfo p{
   width: 50%;
   font-size: 1.2rem;
   text-align: justify;
+  @media (max-width: 800px) {
+    width: 100%;   
+  }
 }
 
 .rowInfo img{
   width: 45%;
   height: 70vh;
   border-radius: 40px;
+  @media (max-width: 800px) {
+    width: 100%;   
+  }
 }
 .rowReverseInfo{
   display: flex;
@@ -93,14 +105,23 @@
   justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
+  @media (max-width: 800px) {
+    flex-direction: column-reverse;    
+  }
 }
 
 .rowReverseInfo p{
   width: 50%;
   font-size: 1.2rem;
   text-align: justify;
+  @media (max-width: 800px) {
+    width: 100%;  
+  }
 }
 .rowReverseInfo img{
   width: 50%;
+  @media (max-width: 800px) {
+    width: 100%;  
+  }
 }
 
