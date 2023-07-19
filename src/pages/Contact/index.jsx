@@ -3,7 +3,7 @@ import wave3 from "../../assets/waves/home/waveInverted3.svg";
 import wave2 from "../../assets/infos/waveInvert.svg";
 import orange from "../../assets/infos/waveOrange.svg";
 import wave1 from "../../assets/infos/waveGreenInverted.svg";
-import Map from "../../components/Map";
+import Map from "./components/Map";
 import { ImWhatsapp } from "react-icons/im";
 import { BsTelephoneInbound } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
@@ -43,41 +43,60 @@ export default function Contact() {
       <div className="boxContact">
         <div className="boxContactLeft">
           <p>
-            Obrigada por visitar meu site. Estou muito feliz em poder te ajudar a alcançar uma vida mais saudável e equilibrada.
+            Obrigada por visitar meu site. Estou muito feliz em poder te ajudar
+            a alcançar uma vida mais saudável e equilibrada.
           </p>
           <p>
-            Se você tiver alguma dúvida, sugestão ou gostaria de marcar uma consulta, por favor. Entre em contato, terei o prazer em responder o mais rápido possível.
+            Se você tiver alguma dúvida, sugestão ou gostaria de marcar uma
+            consulta, por favor. Entre em contato, terei o prazer em responder o
+            mais rápido possível.
           </p>
           <p>
-            Você também pode me encontrar nas redes sociais. Me siga para receber dicas de nutrição, receitas saudáveis e ficar por dentro dos detalhes para manter uma saúde alimentar invejável.
+            Você também pode me encontrar nas redes sociais. Me siga para
+            receber dicas de nutrição, receitas saudáveis e ficar por dentro dos
+            detalhes para manter uma saúde alimentar invejável.
           </p>
-            
+
           <div className="linksContact">
+            <ImWhatsapp
+              onClick={() => handleOpenWhatsapp(whatsappNumber)}
+              className="contactIcon"
+            />
+            <BiLogoTelegram
+              onClick={() => openTelegram(whatsappNumber)}
+              className="contactIcon"
+            />
 
-            <ImWhatsapp onClick={() => handleOpenWhatsapp(whatsappNumber)} className="contactIcon"/>
-            <BiLogoTelegram onClick={() => openTelegram(whatsappNumber)} className="contactIcon"/>
-
-            <a href="https://www.facebook.com/lu.machado.os" target="_blank" rel="noopener noreferrer">
-              <AiFillFacebook className="contactIcon"/>
+            <a
+              href="https://www.facebook.com/lu.machado.os"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillFacebook className="contactIcon" />
             </a>
-            <a href="https://www.instagram.com/nutri_lumachado/" target="_blank" rel="noopener noreferrer">
-              <BsInstagram className="contactIcon"/>
+            <a
+              href="https://www.instagram.com/nutri_lumachado/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsInstagram className="contactIcon" />
             </a>
-            <a href="https://www.linkedin.com/in/luciana-machado-66767169" target="_blank" rel="noopener noreferrer">
-              <BsLinkedin className="contactIcon"/>
+            <a
+              href="https://www.linkedin.com/in/luciana-machado-66767169"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsLinkedin className="contactIcon" />
             </a>
-            
           </div>
           <p className="emailContact">
-            <HiOutlineMail className="emailIcon"/>
+            <HiOutlineMail className="emailIcon" />
             E-mail: nutrilumachado@gmail.com
           </p>
-        
         </div>
         <div className="boxContactRight">
-
           <span>
-            <CiLocationOn className="contactIcon"/>
+            <CiLocationOn className="locationIcon" />
             Av. Rep. Argentina, 2275 - Água Verde, Curitiba - PR, 80610-260
           </span>
 

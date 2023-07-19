@@ -86,16 +86,17 @@ export default function Imc() {
             </label>
             <button onClick={calculateBMI}>Calcular</button>
           </div>
-          {message && <div className="hiddenContact">
-            <p className="message">{message}</p>
-            <button
-              className="contactHideButton"
-              onClick={() => handleOpenWhatsapp(whatsappNumber)}
-            >
-              Entre em contato
-            </button>
-            </div> 
-          }
+          {message && (
+            <div className="hiddenContact">
+              <p className="message">{message}</p>
+              <button
+                className="contactHideButton"
+                onClick={() => handleOpenWhatsapp(whatsappNumber)}
+              >
+                Entre em contato
+              </button>
+            </div>
+          )}
         </div>
       </section>
       <img src={newWave} alt="background wave" className="wave" />
