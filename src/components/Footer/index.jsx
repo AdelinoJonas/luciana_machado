@@ -14,7 +14,7 @@ export default function Footer() {
         <p>Luciana Machado - Nutricionista&copy;&reg;{year}</p>
       </div>
       <div className="rightFooter">
-        <p>By:</p><a href="https://adelinoportfolio.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <a href="https://adelinoportfolio.netlify.app/" target="_blank" rel="noopener noreferrer">
         <img src={jan} alt="link para Jonas desenolvedor de software" />
           </a>
       </div>
