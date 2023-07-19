@@ -1,5 +1,5 @@
 import React from "react";
-import wave1 from "../../assets/waves/home/colorwave-bg.png";
+import wave1 from "../../assets/waves/home/colorwavebg.png";
 import wave3 from "../../assets/waves/home/newWave3.png";
 import whatsapp from "../../assets/logos/whatsOriginal.webp";
 import "./style.css";
