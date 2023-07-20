@@ -1,25 +1,17 @@
 import React from "react";
-import wave3 from "../../assets/waves/home/waveInverted3.svg";
-import wave2 from "../../assets/infos/waveInvert.svg";
-import orange from "../../assets/infos/waveOrange.svg";
-import wave1 from "../../assets/infos/waveGreenInverted.svg";
-import Map from "./components/Map";
-import { ImWhatsapp } from "react-icons/im";
-import { BsTelephoneInbound } from "react-icons/bs";
-import { HiOutlineMail } from "react-icons/hi";
 import { AiFillFacebook } from "react-icons/ai";
-import { CiLocationOn } from "react-icons/ci";
-import { BsInstagram } from "react-icons/bs";
-import { BsLinkedin } from "react-icons/bs";
 import { BiLogoTelegram } from "react-icons/bi";
-import waveTransparent from "../../assets/waves/home/waveTransparent.svg";
+import { BsInstagram, BsLinkedin } from "react-icons/bs";
+import { CiLocationOn } from "react-icons/ci";
+import { HiOutlineMail } from "react-icons/hi";
+import { ImWhatsapp } from "react-icons/im";
+import wave1 from "../../assets/infos/waveGreenInverted.svg";
+import wave2 from "../../assets/infos/waveInvert.svg";
 import waveGreen from "../../assets/waves/home/waveGreen.svg";
+import waveTransparent from "../../assets/waves/home/waveTransparent.svg";
 import "./style.css";
 
 export default function Contact() {
-  const latitude = -25.46646542017244;
-  const longitude = -49.291925671164;
-
   const whatsappNumber = 4199166424;
 
   function handleOpenWhatsapp(whatsappNumber) {
@@ -33,15 +25,15 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact" className="containerContact">
-      <div className="headerContact">
+    <div className="containerContact">
+      <div className="headerContact" id="contact">
         <img src={wave1} alt="background wave" className="waveContact2" />
         <img src={wave2} alt="background wave" className="waveContact1" />
       </div>
 
       <h3>Contato:</h3>
-      <div className="boxContact">
-        <div className="boxContactLeft">
+      <div className="boxContact" >
+        <div className="boxContactLeft" >
           <p>
             Obrigada por visitar meu site. Estou muito feliz em poder te ajudar
             a alcançar uma vida mais saudável e equilibrada.
@@ -101,7 +93,7 @@ export default function Contact() {
           </span>
 
           <div className="location">
-            <Map latitude={latitude} longitude={longitude} />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.152388751984!2d-49.2919364!3d-25.4665865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce37ad6952b4b%3A0x379554d9bf9aebfb!2sAv.%20Rep.%20Argentina%2C%202275%20-%20%C3%81gua%20Verde%2C%20Curitiba%20-%20PR%2C%2080610-260!5e0!3m2!1spt-BR!2sbr!4v1689887961405!5m2!1spt-BR!2sbr" width="600" height="450" ></iframe>
           </div>
         </div>
       </div>

@@ -8,6 +8,13 @@ export default function Imc() {
   const [message, setMessage] = useState("");
 
   const calculateBMI = () => {
+    if (weight > 0 && height > 0) {
+      // Calculate BMI and show the message
+      // ...
+    } else {
+      setMessage("Por favor, insira valores válidos para peso e altura.");
+    }
+
     if (weight && height) {
       const bmi = weight / (height / 100) ** 2;
       let bmiMessage = "";
@@ -68,22 +75,28 @@ export default function Imc() {
         </div>
         <div className="imcCalculator">
           <div className="input-container">
-            <label>
-              Peso (kg):
-              <input
-                type="number"
-                value={weight}
-                onChange={(e) => setWeight(e.target.value)}
-              />
-            </label>
-            <label>
-              Altura (cm):
-              <input
-                type="number"
-                value={height}
-                onChange={(e) => setHeight(e.target.value)}
-              />
-            </label>
+          <label>
+  Peso (kg):
+  <input
+    type="number"
+    value={weight}
+    onChange={(e) => {
+      const newWeight = Math.max(0, e.target.value);
+      setWeight(newWeight);
+    }}
+  />
+</label>
+<label>
+  Altura (cm):
+  <input
+    type="number"
+    value={height}
+    onChange={(e) => {
+      const newHeight = Math.max(0, e.target.value); 
+      setHeight(newHeight);
+    }}
+  />
+</label>
             <button onClick={calculateBMI}>Calcular</button>
           </div>
           {message && (
