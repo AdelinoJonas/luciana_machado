@@ -48,10 +48,8 @@
 }
  .wave2{
   min-width: 100%;
-  height: 150px;
   position: relative;
   z-index: 6;
-
 }
 
 .whatsApp{
@@ -59,7 +57,7 @@
   z-index: 50;
   width: 13%;
   right: 2%;
-  bottom: 15%;
+  bottom: 7%;
   cursor: pointer;
   @media (max-width: 550px) {
     width: 20%;

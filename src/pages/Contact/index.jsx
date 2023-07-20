@@ -26,14 +26,14 @@ export default function Contact() {
 
   return (
     <div className="containerContact">
-      <div className="headerContact" id="contact">
+      <div className="headerContact">
         <img src={wave1} alt="background wave" className="waveContact2" />
         <img src={wave2} alt="background wave" className="waveContact1" />
       </div>
 
-      <h3>Contato:</h3>
-      <div className="boxContact" >
-        <div className="boxContactLeft" >
+      <div className="boxContact" id="contact">
+        <div className="boxContactLeft">
+          <h3>Contato:</h3>
           <p>
             Obrigada por visitar meu site. Estou muito feliz em poder te ajudar
             a alcançar uma vida mais saudável e equilibrada.
@@ -93,7 +93,11 @@ export default function Contact() {
           </span>
 
           <div className="location">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.152388751984!2d-49.2919364!3d-25.4665865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce37ad6952b4b%3A0x379554d9bf9aebfb!2sAv.%20Rep.%20Argentina%2C%202275%20-%20%C3%81gua%20Verde%2C%20Curitiba%20-%20PR%2C%2080610-260!5e0!3m2!1spt-BR!2sbr!4v1689887961405!5m2!1spt-BR!2sbr" width="600" height="450" ></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.152388751984!2d-49.2919364!3d-25.4665865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce37ad6952b4b%3A0x379554d9bf9aebfb!2sAv.%20Rep.%20Argentina%2C%202275%20-%20%C3%81gua%20Verde%2C%20Curitiba%20-%20PR%2C%2080610-260!5e0!3m2!1spt-BR!2sbr!4v1689887961405!5m2!1spt-BR!2sbr"
+              width="600"
+              height="450"
+            ></iframe>
           </div>
         </div>
       </div>

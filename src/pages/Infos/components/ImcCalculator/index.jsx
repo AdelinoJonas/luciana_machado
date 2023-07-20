@@ -75,28 +75,28 @@ export default function Imc() {
         </div>
         <div className="imcCalculator">
           <div className="input-container">
-          <label>
-  Peso (kg):
-  <input
-    type="number"
-    value={weight}
-    onChange={(e) => {
-      const newWeight = Math.max(0, e.target.value);
-      setWeight(newWeight);
-    }}
-  />
-</label>
-<label>
-  Altura (cm):
-  <input
-    type="number"
-    value={height}
-    onChange={(e) => {
-      const newHeight = Math.max(0, e.target.value); 
-      setHeight(newHeight);
-    }}
-  />
-</label>
+            <label>
+              Peso (kg):
+              <input
+                type="number"
+                value={weight}
+                onChange={(e) => {
+                  const newWeight = Math.max(0, e.target.value);
+                  setWeight(newWeight);
+                }}
+              />
+            </label>
+            <label>
+              Altura (cm):
+              <input
+                type="number"
+                value={height}
+                onChange={(e) => {
+                  const newHeight = Math.max(0, e.target.value);
+                  setHeight(newHeight);
+                }}
+              />
+            </label>
             <button onClick={calculateBMI}>Calcular</button>
           </div>
           {message && (
