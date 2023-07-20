@@ -1,14 +1,13 @@
 import React from "react";
-import wave3 from "../../../../assets/waves/home/waveInverted3.svg";
-import newWave from "../../../../assets/waves/home/newWave3.png";
-import wave2 from "../../../../assets/waves/home/waveInverted2.svg";
-import wave1 from "../../../../assets/waves/home/waveInverted1.svg";
-import stetic from "../../../../assets/photos/stetic.png";
 import dna from "../../../../assets/photos/dnaFood.jpg";
-import clinic from "../../../../assets/photos/mockup6.jpg";
 import fitxfat from "../../../../assets/photos/gorduraxmusculo.jpg";
-import waveTransparent from "../../../../assets/waves/home/waveTransparent.svg";
+import clinic from "../..//..//..//assets/photos/mockup6.jpg";
+import stetic from "../../../../assets/photos/stetic.png";
 import waveGreen from "../../../../assets/waves/home/waveGreen.svg";
+import wave1 from "../../../../assets/waves/home/waveInverted1.svg";
+import wave2 from "../../../../assets/waves/home/waveInverted2.svg";
+import wave3 from "../../../../assets/waves/home/waveInverted3.svg";
+import waveTransparent from "../../../../assets/waves/home/waveTransparent.svg";
 import "./style.css";
 
 export default function Focused() {
