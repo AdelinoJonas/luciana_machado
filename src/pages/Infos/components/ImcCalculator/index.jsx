@@ -8,13 +8,6 @@ export default function Imc() {
   const [message, setMessage] = useState("");
 
   const calculateBMI = () => {
-    if (weight > 0 && height > 0) {
-      // Calculate BMI and show the message
-      // ...
-    } else {
-      setMessage("Por favor, insira valores válidos para peso e altura.");
-    }
-
     if (weight && height) {
       const bmi = weight / (height / 100) ** 2;
       let bmiMessage = "";

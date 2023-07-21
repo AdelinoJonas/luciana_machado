@@ -15,7 +15,7 @@ export default function About() {
       <div className="row">
         <div className="description">
           <p className="textDescription">
-            Sou uma nutricionista apaixonada pela nutrição clínica, estética e
+            Meu nome é Luciana Machado, sou uma nutricionista apaixonada pela nutrição clínica, estética e
             pela docência! Com vasta experiência em nutrição clínica, trabalho
             com pessoas que possuem condições específicas de saúde, como
             diabetes, hipertensão e distúrbios alimentares, fornecendo
