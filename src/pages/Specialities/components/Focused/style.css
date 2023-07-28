@@ -11,6 +11,10 @@
   background-position: center;
   background-attachment: fixed;
   background-color: rgba(0, 0, 0, 0.5);
+  @media (max-width: 500px) {
+    background-image:none;
+    background-color: #fff;
+  }
 }
 
 .headerEducation{
