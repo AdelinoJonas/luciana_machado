@@ -1,7 +1,7 @@
 import React from "react";
 import dna from "../../../../assets/photos/dnaFood.jpg";
 import fitxfat from "../../../../assets/photos/gorduraxmusculo.jpg";
-import clinic from "../assets/mockup6.jpg";
+import clinic from "../assets/mockup6.png";
 import stetic from "../../../../assets/photos/stetic.png";
 import waveGreen from "../../../../assets/waves/home/waveGreen.svg";
 import wave1 from "../../../../assets/waves/home/waveInverted1.svg";
@@ -21,7 +21,7 @@ export default function Focused() {
       <div id="specialities" className="boxEspecialities">
         <h1>Minhas especialidades</h1>
         <div className="descriptionEspec">
-          <h2>Nutrição Estética</h2>
+          <h2>NUTRIÇÃO ESTÉTICA</h2>
           <div className="especRowList">
             <div className="especItem">
               <p>
@@ -62,7 +62,7 @@ export default function Focused() {
           </div>
         </div>
         <div className="descriptionEspec">
-          <h2>Nutrição Clínica</h2>
+          <h2>NUTRIÇÃO ClÍNICA</h2>
           <div className="especRowList">
             <div className="especItem">
               <p>

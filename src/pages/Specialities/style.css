@@ -27,11 +27,17 @@
   flex-direction: column;
 
   padding: 2rem;
+    @media (max-width: 500px) {
+      padding: 1rem;
+  }
 }
 
 .boxEducation h1{
   font-size: 3rem;
   text-align: center;
+  @media (max-width: 500px) {
+    font-size: 2.5rem;
+  }
 }
 
 .descriptionEducation{
@@ -44,7 +50,7 @@
 .descriptionEducation .educationList{
   width: 35vw;
   @media (max-width: 1000px) {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -54,6 +60,9 @@
   text-align: justify;
   line-height: 2.3rem;
   margin-bottom: 2rem;
+  @media (max-width: 1000px) {
+    text-align: left;
+  }
 }
 
 .imgKnowledge{
@@ -75,19 +84,24 @@
 
   @media (max-width: 1000px) {
     width: 100%;
+    border-radius: 30% ;
+    -webkit-box-shadow: -9px 27px 0px -1px rgba(38,109,69,1);
+    -moz-box-shadow: -9px 27px 0px -1px rgba(38,109,69,1);
+    box-shadow: -9px 27px 0px -1px rgba(38,109,69,1);
   }
 }
 
 .miniCardsContainer{
-  width: 90%;
+  /* height: 50vh; */
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-  margin: 5rem 0;
+  gap: 2rem;
+  margin-bottom: 5rem;
   /* flex-wrap: wrap; */
   @media (max-width: 1000px) {
     width: 100%;
+    margin-top: 3rem;
     margin-left: -1rem;
     flex-direction: column;
   }
@@ -95,15 +109,12 @@
 }
 
 .miniCard{
-
   width: 30vw;
   height: max-content;
   background-color: #F5A14F;
-  border-radius: 30% 70% 70% 30% / 42% 39% 61% 58% ;
-  -webkit-box-shadow: -19px 47px 0px -1px #D28563;
-  -moz-box-shadow: -19px 47px 0px -1px #D28563;
-  box-shadow: -19px 47px 0px -1px #D28563;
-  padding: 3rem 2rem 3rem;
+  border-radius: 30%;
+  box-shadow: -9px 27px 0px -1px #D28563;
+  padding: 2rem 2rem;
   list-style-type: none;
   text-align: center;
   font-size: 1.3rem;
@@ -114,5 +125,6 @@
     padding: 5rem 2rem;
     margin-left: -3rem;
     font-size: 1.3rem;
+    box-shadow: -9px 27px 0px -1px #D28563;
   }
 }

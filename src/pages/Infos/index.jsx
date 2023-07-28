@@ -1,10 +1,10 @@
 import React from "react";
 import wave3 from "../../assets/waves/home/waveGreenInverted.svg";
 import wave2 from "../../assets/waves/home/waveInvertedTransparent.svg";
-import piramide from "../../assets/infos/piramidealimentaratualizada.jpg";
+import piramide from "../../assets/infos/piramidealimentarRemovebg.png";
 import adipometro from "../../assets/infos/adipometro.webp";
-import modulo from "../../assets/infos/escaladebristol.jpeg";
-import health from "../../assets/infos/womanHealth.avif";
+import modulo from "../../assets/infos/escaladebristol.png";
+import health from "../../assets/infos/womanHealth.png";
 import "./style.css";
 import Imc from "./components/ImcCalculator";
 import waveTransparent from "../../assets/waves/home/waveTransparent.svg";
@@ -23,31 +23,30 @@ export default function Infos() {
         <img src={wave3} alt="background wave" className="greenInv3" />
       </div>
       <div className="containerInfos">
-        <h2>Como funciona o acompanhamento nutricional</h2>
-        <p>
-          1 – Após agendamento da consulta, você receberá por email um
+        <h2>COMO FUNCIONA O ACOMPANHAMENTO NUTRICIONAL</h2>
+        <li>
+          Após agendamento da consulta, você receberá por email um
           questionário pré-consulta, para me preparar para o seu atendimento;
-        </p>
-        <p>
-          2 – Já em consulta faremos uma anamnese detalhada para te conhecer
+        </li>
+        <li>
+          Já em consulta faremos uma anamnese detalhada para te conhecer
           melhor e assim te proporcionar um atendimento ainda mais
           personalizado;
-        </p>
-        <p>
-          2 – Ainda em consulta conversaremos sobre seus objetivos, rotinas,
+        </li>
+        <li>Ainda em consulta conversaremos sobre seus objetivos, rotinas,
           rastreamento metabólico e interpretação de exames laboratoriais
           (quando houver), se não, serão solicitados;
-        </p>
-        <p>
-          3 – Avaliação de composição corporal através de dobras cutâneas e
+        </li>
+        <li>
+          Avaliação de composição corporal através de dobras cutâneas e
           bioimpedância (para analisar percentual de gordura e massa magra),
           circunferências, e registro de fotos para obtermos parâmetros de
           evolução;
-        </p>
-        <p>
-          4 – Após uma semana nos encontramos novamente para a entrega do seu
+        </li>
+        <li>
+          Após uma semana nos encontramos novamente para a entrega do seu
           plano alimentar personalizado com orientações e receitas.
-        </p>
+        </li>
 
         <ul className="details">
           <li>

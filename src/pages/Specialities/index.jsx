@@ -2,7 +2,7 @@ import React from "react";
 import wave3 from "../../assets/waves/home/waveInverted3.svg";
 import wave2 from "../../assets/waves/home/waveInverted2.svg";
 import wave1 from "../../assets/waves/home/waveInverted1.svg";
-import nutri from "../../assets/photos/Mockup5.jpg";
+import nutri from "../../assets/photos/Mockup5.png";
 import "./style.css";
 import Focused from "./components/Focused";
 import newWave from "../../assets/waves/home/newWave3.png";

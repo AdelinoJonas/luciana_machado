@@ -69,6 +69,9 @@
   font-size: 3rem;
   text-align: center;
   color: #000;
+  @media (max-width: 500px) {
+    font-size: 2.5rem;
+  } 
 }
 
 .descriptionEspec h2{
@@ -172,33 +175,36 @@
 }
 
 .cardContainer{
-  width: 90%;
-  height: 100vh;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-bottom: 5rem;
-  margin-left: 5rem;
+  padding: 2rem 0;
   background-color: #F5A14F;
-  border-radius: 77% 23% 80% 20% / 20% 83% 17% 80%  ;
+  border-radius: 30%;
   -webkit-box-shadow: -19px 47px 0px -1px #D28563;
   -moz-box-shadow: -19px 47px 0px -1px #D28563;
   box-shadow: -19px 47px 0px -1px #D28563;
   @media (max-width: 1000px) {
-    width: 90%;
-    margin-left: -1rem;
+    width: 100%;
+    padding-left: 1rem;
     flex-direction: column;
     /* margin-bottom: 1rem; */
+    border-radius: 30%;
+    box-shadow: -9px 27px 0px -1px #D28563;
   }
 
 }
 
 .card{
   width: 70%;
-  padding: 1rem 5rem 3rem 1rem;
+  padding: 1rem;
   text-align: start;
   font-size: 1.3rem;
+  list-style-position: inside;
+  line-height: 2rem;
   
   @media (max-width: 500px) {
     
@@ -206,6 +212,5 @@
     font-size: 1.2rem;
     margin-left: 2rem;
     padding: 1rem 3rem 1rem 1rem;
-    
   }
 }
