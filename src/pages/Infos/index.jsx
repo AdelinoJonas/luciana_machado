@@ -130,7 +130,8 @@ export default function Infos() {
             <h1>Educação Nutricional </h1>
             <div className="rowReverseInfo">
               <p>
-                Ouvimos sempre sobre reeducação alimentar, porém acredito que
+                Aprenda a corrigir hábitos prejudiciais e adotar escolhas alimentares saudáveis, personalizadas para atender às suas necessidades. Conte comigo, pois sou especializada em oferecer acompanhamentos personalizados e tabelas nutricionais diversificadas para garantir variedade na sua dieta, sem comprometer os objetivos de saúde. Descubra como podemos ajudá-lo a alcançar uma vida mais saudável e equilibrada através da alimentação.
+                {/* Ouvimos sempre sobre reeducação alimentar, porém acredito que
                 muitos aprendem hábitos que parecem saudáveis, mas podem
                 prejudicar a sua saúde. Recebendo acompanhamento adequado de um
                 nutricionista, é possível corrigir hábitos alimentares que foram
@@ -143,7 +144,7 @@ export default function Infos() {
                 monotonia alimentar, é útil para variar a sua alimentação, desta
                 forma, permanece a quantidade de calorias e macronutrientes da
                 sua dieta, indicados pelo profissional de nutrição sem
-                prejudicar seu objetivo.
+                prejudicar seu objetivo. */}
               </p>
               <img
                 src={piramide}

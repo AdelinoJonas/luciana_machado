@@ -7,32 +7,41 @@ export default function Imc() {
   const [height, setHeight] = useState("");
   const [message, setMessage] = useState("");
 
-  const calculateBMI = () => {
-    if (weight && height) {
-      const bmi = weight / (height / 100) ** 2;
-      let bmiMessage = "";
+  const calculateIMC = () => {
 
-      if (bmi < 18.5) {
-        bmiMessage =
-          "(Abaixo do Peso) - Ei, você é tão leve que poderia competir no levantamento de penas! Mas cuidado, vamos ajudar você a ganhar peso de forma saudável. Que tal um plano alimentar com direito a sobremesa e tudo? Fale comigo, ficarei muito feliz em te ajudar!";
-      } else if (bmi >= 18.5 && bmi < 24.9) {
-        bmiMessage =
-          "(Peso normal) - Parabéns! Você está no seu peso ideal, meu amigo! Mas se quiser continuar assim, vou ser seu 'guardião da balança' e te ajudar a manter essa forma física invejável. Fale comigo, ficarei muito feliz em te ajudar!";
-      } else if (bmi >= 25 && bmi < 29.9) {
-        bmiMessage =
-          "(Sobrepeso) - Ei, olha só, você não está acima do peso, está apenas 'acumulando amor'! Vamos trabalhar juntos para encontrar um equilíbrio saudável e garantir que você possa saborear as delícias da vida sem preocupações! Fale comigo, ficarei muito feliz em te ajudar!";
-      } else if (bmi >= 30 && bmi < 34.9) {
-        bmiMessage =
-          "(Obesidade Grau 1) - Seu IMC diz que você é oficialmente um 'rebelde das balanças'! Mas não se preocupe, estou aqui para te ajudar a desbravar esse caminho e voltar para o território do peso saudável. Vamos suar a camisa (literalmente) juntos! Fale comigo, ficarei muito feliz em te ajudar!";
-      } else if (bmi >= 35 && bmi < 39.9) {
-        bmiMessage =
-          "(Obesidade Grau 2) - Ei, você é uma pessoa incrível, e agora temos um novo desafio: transformar a obesidade grau 2 em 'Grau de Determinação'! Estou aqui para oferecer apoio, compartilhar dicas e ajudá-lo a dar passos importantes rumo a uma vida mais saudável. Fale comigo, ficarei muito feliz em te ajudar!";
+    const weightValue = parseFloat(weight);
+    const heightValue = parseFloat(height);
+
+    if (isNaN(weightValue) || isNaN(heightValue) || weightValue <= 0 || heightValue <= 0) {
+      alert("Por favor, insira números positivos válidos para peso e altura.");
+      return;
+    }
+
+    if (weight && height) {
+      const imc = weightValue / (heightValue / 100) ** 2;
+      let imcMessage = "";
+
+      if (imc < 18.5) {
+        imcMessage =
+          "(Abaixo do Peso) - Ei, você é tão leve que poderia competir no levantamento de penas! Mas cuidado, vou ajudar você a ganhar peso de forma saudável. Que tal um plano alimentar com direito a sobremesa e tudo? Fale comigo, ficarei muito feliz em te ajudar!";
+      } else if (imc >= 18.5 && imc < 24.9) {
+        imcMessage =
+          "(Peso normal) - Parabéns! Você está no seu peso ideal! Mas se quiser continuar assim, vou ser sua 'guardiã da balança' e te ajudar a manter essa forma física invejável. Se o seu resultado não te agradou, ou sente que poderia ser melhor. fale comigo, ficaria muito feliz em te ajudar!";
+      } else if (imc >= 25 && imc < 29.9) {
+        imcMessage =
+          "(Sobrepeso) - Ei, olha só, você não está acima do peso, está apenas 'acumulando amor'! Vamos trabalhar juntos para encontrar um equilíbrio saudável e garantir que você possa saborear as delícias da vida sem preocupações! Se o seu resultado não te agradou, ou sente que poderia ser melhor. fale comigo, ficaria muito feliz em te ajudar!";
+      } else if (imc >= 30 && imc < 34.9) {
+        imcMessage =
+          "(Obesidade Grau 1) - Seu IMC diz que você é oficialmente um 'rebelde das balanças'! Mas não se preocupe, estou aqui para te ajudar a desbravar esse caminho e voltar para o território do peso saudável. Vamos suar a camisa (literalmente) juntos! Se o seu resultado não te agradou, ou sente que poderia ser melhor. fale comigo, ficaria muito feliz em te ajudar!";
+      } else if (imc >= 35 && imc < 39.9) {
+        imcMessage =
+          "(Obesidade Grau 2) - Ei, você é uma pessoa incrível, e agora temos um novo desafio: transformar a obesidade grau 2 em 'Grau de Determinação'! Estou aqui para oferecer apoio, compartilhar dicas e ajudá-lo a dar passos importantes rumo a uma vida mais saudável. Se o seu resultado não te agradou, ou sente que poderia ser melhor. fale comigo, ficaria muito feliz em te ajudar!";
       } else {
-        bmiMessage =
+        imcMessage =
           "(Obesidade Grau 3) - Você é uma estrela brilhante, e vamos trazer todo esse brilho para a jornada de saúde! Juntos, vamos enfrentar a obesidade grau 3, conquistar pequenas vitórias e trabalhar para transformar o impossível em possível. Se o seu resultado não te agradou, ou sente que poderia ser melhor. fale comigo, ficaria muito feliz em te ajudar!";
       }
 
-      setMessage(`Seu IMC é ${bmi.toFixed(2)} ${bmiMessage}`);
+      setMessage(`Seu IMC é ${imc.toFixed(2)}kg/m² ${imcMessage}`);
     }
   };
 
@@ -72,10 +81,10 @@ export default function Imc() {
               Peso (kg):
               <input
                 type="number"
+                placeholder="Ex: 75"
                 value={weight}
                 onChange={(e) => {
-                  const newWeight = Math.max(0, e.target.value);
-                  setWeight(newWeight);
+                  setWeight(e.target.value);
                 }}
               />
             </label>
@@ -84,13 +93,13 @@ export default function Imc() {
               <input
                 type="number"
                 value={height}
+                placeholder="Ex: 180"
                 onChange={(e) => {
-                  const newHeight = Math.max(0, e.target.value);
-                  setHeight(newHeight);
+                  setHeight(e.target.value);
                 }}
               />
             </label>
-            <button onClick={calculateBMI}>Calcular</button>
+            <button onClick={calculateIMC}>Calcular</button>
           </div>
           {message && (
             <div className="hiddenContact">
