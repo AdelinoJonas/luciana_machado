@@ -9,6 +9,7 @@ import "./style.css";
 import Imc from "./components/ImcCalculator";
 import waveTransparent from "../../assets/waves/home/waveTransparent.svg";
 import waveGreen from "../../assets/waves/home/waveGreen.svg";
+import { Reveal } from "../../utils/Reveal";
 
 export default function Infos() {
   return (
@@ -23,50 +24,70 @@ export default function Infos() {
         <img src={wave3} alt="background wave" className="greenInv3" />
       </div>
       <div className="containerInfos">
+      <Reveal>
         <h2>COMO FUNCIONA O ACOMPANHAMENTO NUTRICIONAL</h2>
+      </Reveal>
+      <Reveal>
         <li>
           Após agendamento da consulta, você receberá por email um questionário
           pré-consulta, para me preparar para o seu atendimento;
         </li>
+      </Reveal>
+      <Reveal>
         <li>
           Já em consulta faremos uma anamnese detalhada para te conhecer melhor
           e assim te proporcionar um atendimento ainda mais personalizado;
         </li>
+        </Reveal>
+        <Reveal>
         <li>
           Ainda em consulta conversaremos sobre seus objetivos, rotinas,
           rastreamento metabólico e interpretação de exames laboratoriais
           (quando houver), se não, serão solicitados;
         </li>
+        </Reveal>
+        <Reveal>
         <li>
           Avaliação de composição corporal através de dobras cutâneas e
           bioimpedância (para analisar percentual de gordura e massa magra),
           circunferências, e registro de fotos para obtermos parâmetros de
           evolução;
         </li>
+        </Reveal>
+        <Reveal>
         <li>
           Após uma semana nos encontramos novamente para a entrega do seu plano
           alimentar personalizado com orientações e receitas.
         </li>
-
+        </Reveal>
         <ul className="details">
+        <Reveal>
           <li>
             A primeira consulta tem duração de 01:30h a 02:00h, dependendo de
             cada caso.
           </li>
+          </Reveal>
+          <Reveal>
           <li>
             Os retornos (que devem ser a cada 30 dias) tem duração em média de
             01:00h.
           </li>
+          </Reveal>
+          <Reveal>
           <li>
             Durante o período de tratamento o cliente terá acesso ao meu
             WhatsApp para tirar dúvidas e acompanhamento.
           </li>
+          </Reveal>
         </ul>
         <div className="healthType">
           <div className="boxType">
+          <Reveal>
             <h1>Saúde da mulher</h1>
+          </Reveal>
             <div className="rowInfo">
               <p>
+            <Reveal>
                 A mulher passa por diversas fases ao longo da vida adulta que
                 requerem atenção com a alimentação devido as suas
                 peculiaridades. Sendo que em cada fase necessita de cuidados
@@ -79,14 +100,18 @@ export default function Infos() {
                 pois alguns alimentos possuem benefícios para a prevenção e
                 auxiliam no tratamento de diversas doenças e distúrbios que
                 ocorrem na vida da mulher.
+            </Reveal>
               </p>
               <img src={health} alt="Saúde da mulher" className="imgInfo" />
             </div>
           </div>
           <div className="boxType">
+          <Reveal>
             <h1>Modulação intestinal</h1>
+          </Reveal>
             <div className="rowReverseInfo">
               <p>
+              <Reveal>
                 Já sabemos da importância do nosso intestino, que hoje é
                 considerado como nosso segundo cérebro. A modulação Intestinal é
                 um conjunto de intervenções aplicadas ao trato gastrointestinal,
@@ -99,6 +124,7 @@ export default function Infos() {
                 possível obter diversos benefícios, como melhora dos sintomas
                 gastrointestinais, disposição, fortalecimento do sistema
                 imunológico, entre outros.
+                </Reveal>
               </p>
               <img
                 src={modulo}
@@ -108,9 +134,12 @@ export default function Infos() {
             </div>
           </div>
           <div className="boxType">
+          <Reveal>
             <h1>Avaliação Nutricional</h1>
+          </Reveal>
             <div className="rowInfo">
               <p>
+              <Reveal>
                 O objetivo da avaliação nutricional é de identificar o estado
                 nutricional e assim reconhecer quais as necessidades alimentares
                 cada indivíduo possui. Dessa forma, é possível intervir
@@ -118,6 +147,7 @@ export default function Infos() {
                 identificação dos distúrbios e riscos nutricionais, assim como a
                 gravidade deles, ajuda a definir quais as medidas devem ser
                 adotadas como respostas às intervenções nutricionais.
+              </Reveal>
               </p>
               <img
                 src={adipometro}
@@ -127,9 +157,12 @@ export default function Infos() {
             </div>
           </div>
           <div className="boxType">
+          <Reveal>
             <h1>Educação Nutricional </h1>
+          </Reveal>
             <div className="rowReverseInfo">
               <p>
+              <Reveal>
                 Aprenda a corrigir hábitos prejudiciais e adotar escolhas
                 alimentares saudáveis, personalizadas para atender às suas
                 necessidades. Conte comigo, pois sou especializada em oferecer
@@ -138,6 +171,7 @@ export default function Infos() {
                 comprometer os objetivos de saúde. Descubra como podemos
                 ajudá-lo a alcançar uma vida mais saudável e equilibrada através
                 da alimentação.
+              </Reveal>
                 {/* Ouvimos sempre sobre reeducação alimentar, porém acredito que
                 muitos aprendem hábitos que parecem saudáveis, mas podem
                 prejudicar a sua saúde. Recebendo acompanhamento adequado de um

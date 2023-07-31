@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 import newWave from "../../../../assets/waves/home/waveGreen.svg";
+import { Reveal } from "../../../../utils/Reveal";
 
 export default function Imc() {
   const [weight, setWeight] = useState("");
@@ -58,29 +59,39 @@ export default function Imc() {
 
   return (
     <div className="calculator" id="infos">
-      <h1>Você sabe o que é a Calculadora de IMC ?</h1>
+      <Reveal>
+        <h1>Você sabe o que é a Calculadora de IMC ?</h1>
+      </Reveal>
       <section className="imcBody">
         <div className="imcDescription">
+        <Reveal>
           <p>
             Basicamente, o IMC é um cálculo que leva em conta a sua altura e o
             seu peso. Ele diz se você está acima, abaixo ou no peso ideal. Não é
             uma fórmula perfeita, mas dá uma boa noção de como anda sua
             situação.
           </p>
+          </Reveal>
+          <Reveal>
           <p>
             Mas para que serve isso? Bom, o IMC ajuda a avaliar se você está em
             um peso saudável para a sua altura. Ele dá uma ideia se você está
             abaixo do peso (magrinho demais), no peso ideal, um pouco acima do
             peso ou se está passando dos limites (um abraço pra obesidade).
           </p>
+          </Reveal>
+          <Reveal>
           <p>
             Claro, cada pessoa é única, então nem sempre o IMC conta a história
             toda, mas é um bom ponto de partida para ficar de olho na sua saúde
-            e conte comigo para
+            e conte comigo para atigir o seu IMC ideal e manter uma vida saudável.
           </p>
+          </Reveal>
         </div>
+
         <div className="imcCalculator">
           <div className="input-container">
+        <Reveal>
             <label>
               Peso (kg):
               <input
@@ -104,6 +115,7 @@ export default function Imc() {
               />
             </label>
             <button onClick={calculateIMC}>Calcular</button>
+          </Reveal>
           </div>
           {message && (
             <div className="hiddenContact">

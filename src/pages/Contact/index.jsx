@@ -10,6 +10,7 @@ import wave2 from "../../assets/infos/waveInvert.svg";
 import waveGreen from "../../assets/waves/home/waveGreen.svg";
 import waveTransparent from "../../assets/waves/home/waveTransparent.svg";
 import "./style.css";
+import { Reveal } from "../../utils/Reveal";
 
 export default function Contact() {
   const whatsappNumber = 4199166424;
@@ -33,22 +34,31 @@ export default function Contact() {
 
       <div className="boxContact" id="contact">
         <div className="boxContactLeft">
+        <Reveal>
           <h3>Contato:</h3>
+        </Reveal>
           <p>
+          <Reveal>
             Obrigada por visitar meu site. Estou muito feliz em poder te ajudar
             a alcançar uma vida mais saudável e equilibrada.
+          </Reveal>
           </p>
           <p>
+          <Reveal>
             Se você tiver alguma dúvida, sugestão ou gostaria de marcar uma
             consulta, por favor. Entre em contato, terei o prazer em responder o
             mais rápido possível.
+          </Reveal>
           </p>
           <p>
+          <Reveal>
             Você também pode me encontrar nas redes sociais. Me siga para
             receber dicas de nutrição, receitas saudáveis e ficar por dentro dos
             detalhes para manter uma saúde alimentar invejável.
+          </Reveal>
           </p>
 
+          <Reveal>
           <div className="linksContact">
             <ImWhatsapp
               onClick={() => handleOpenWhatsapp(whatsappNumber)}
@@ -81,16 +91,21 @@ export default function Contact() {
               <BsLinkedin className="contactIcon" />
             </a>
           </div>
+          </Reveal>
+          <Reveal>
           <p className="emailContact">
             <HiOutlineMail className="emailIcon" />
             E-mail: nutrilumachado@gmail.com
           </p>
+          </Reveal>
         </div>
         <div className="boxContactRight">
+        <Reveal>
           <span>
             <CiLocationOn className="locationIcon" />
             Av. Rep. Argentina, 2275 - Água Verde, Curitiba - PR, 80610-260
           </span>
+        </Reveal>
 
           <div className="location">
             <iframe
