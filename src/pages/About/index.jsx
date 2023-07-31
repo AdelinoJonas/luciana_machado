@@ -62,13 +62,16 @@ export default function About() {
           </Reveal>
         </div>
         <div className="imgBox">
-       {/* <motion.img
+          {/* <motion.img
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: -100 }} */}
-        <img
-        transition={{ duration: 1, delay: 0.25 }}
-        className="face" src={perfil} alt="Meu rosto" />
+          <img
+            transition={{ duration: 1, delay: 0.25 }}
+            className="face"
+            src={perfil}
+            alt="Meu rosto"
+          />
         </div>
       </div>
     </div>

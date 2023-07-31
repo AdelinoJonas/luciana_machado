@@ -15,7 +15,7 @@ export const RevealHome = ({ children }) => {
   }, [isInView]);
 
   return (
-    <div ref={ref} style={{overflow: "hidden" }}>
+    <div ref={ref} style={{ overflow: "hidden" }}>
       <motion.div
         variants={{
           hidden: { opacity: 0, y: 100 },

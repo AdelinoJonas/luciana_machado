@@ -34,78 +34,78 @@ export default function Contact() {
 
       <div className="boxContact" id="contact">
         <div className="boxContactLeft">
-        <Reveal>
-          <h3>Contato:</h3>
-        </Reveal>
-          <p>
           <Reveal>
-            Obrigada por visitar meu site. Estou muito feliz em poder te ajudar
-            a alcançar uma vida mais saudável e equilibrada.
+            <h3>Contato:</h3>
           </Reveal>
+          <p>
+            <Reveal>
+              Obrigada por visitar meu site. Estou muito feliz em poder te
+              ajudar a alcançar uma vida mais saudável e equilibrada.
+            </Reveal>
           </p>
           <p>
-          <Reveal>
-            Se você tiver alguma dúvida, sugestão ou gostaria de marcar uma
-            consulta, por favor. Entre em contato, terei o prazer em responder o
-            mais rápido possível.
-          </Reveal>
+            <Reveal>
+              Se você tiver alguma dúvida, sugestão ou gostaria de marcar uma
+              consulta, por favor. Entre em contato, terei o prazer em responder
+              o mais rápido possível.
+            </Reveal>
           </p>
           <p>
-          <Reveal>
-            Você também pode me encontrar nas redes sociais. Me siga para
-            receber dicas de nutrição, receitas saudáveis e ficar por dentro dos
-            detalhes para manter uma saúde alimentar invejável.
-          </Reveal>
+            <Reveal>
+              Você também pode me encontrar nas redes sociais. Me siga para
+              receber dicas de nutrição, receitas saudáveis e ficar por dentro
+              dos detalhes para manter uma saúde alimentar invejável.
+            </Reveal>
           </p>
 
           <Reveal>
-          <div className="linksContact">
-            <ImWhatsapp
-              onClick={() => handleOpenWhatsapp(whatsappNumber)}
-              className="contactIcon"
-            />
-            <BiLogoTelegram
-              onClick={() => openTelegram(whatsappNumber)}
-              className="contactIcon"
-            />
+            <div className="linksContact">
+              <ImWhatsapp
+                onClick={() => handleOpenWhatsapp(whatsappNumber)}
+                className="contactIcon"
+              />
+              <BiLogoTelegram
+                onClick={() => openTelegram(whatsappNumber)}
+                className="contactIcon"
+              />
 
-            <a
-              href="https://www.facebook.com/lu.machado.os"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <AiFillFacebook className="contactIcon" />
-            </a>
-            <a
-              href="https://www.instagram.com/nutri_lumachado/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <BsInstagram className="contactIcon" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/luciana-machado-66767169"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <BsLinkedin className="contactIcon" />
-            </a>
-          </div>
+              <a
+                href="https://www.facebook.com/lu.machado.os"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillFacebook className="contactIcon" />
+              </a>
+              <a
+                href="https://www.instagram.com/nutri_lumachado/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsInstagram className="contactIcon" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/luciana-machado-66767169"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsLinkedin className="contactIcon" />
+              </a>
+            </div>
           </Reveal>
           <Reveal>
-          <p className="emailContact">
-            <HiOutlineMail className="emailIcon" />
-            E-mail: nutrilumachado@gmail.com
-          </p>
+            <p className="emailContact">
+              <HiOutlineMail className="emailIcon" />
+              E-mail: nutrilumachado@gmail.com
+            </p>
           </Reveal>
         </div>
         <div className="boxContactRight">
-        <Reveal>
-          <span>
-            <CiLocationOn className="locationIcon" />
-            Av. Rep. Argentina, 2275 - Água Verde, Curitiba - PR, 80610-260
-          </span>
-        </Reveal>
+          <Reveal>
+            <span>
+              <CiLocationOn className="locationIcon" />
+              Av. Rep. Argentina, 2275 - Água Verde, Curitiba - PR, 80610-260
+            </span>
+          </Reveal>
 
           <div className="location">
             <iframe

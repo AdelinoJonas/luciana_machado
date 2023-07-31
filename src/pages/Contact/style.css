@@ -3,58 +3,58 @@
   margin-top: -1rem;
 }
 
-.headerContact{
+.headerContact {
   position: relative;
   margin-top: 1rem;
 }
 
-.waveContact2{
+.waveContact2 {
   width: 100%;
   position: relative;
   z-index: 8;
   margin-top: -1%;
 }
 
-.waveContact1{
+.waveContact1 {
   width: 100%;
   position: relative;
   z-index: 4;
   margin-top: -20%;
 }
 
-.newWaveContact{
+.newWaveContact {
   width: 100%;
   position: relative;
 }
 
-.boxContact{
- display: flex;
+.boxContact {
+  display: flex;
   margin-bottom: 20%;
   padding-top: 10vh;
   @media (max-width: 900px) {
-    flex-direction: column;   
-    gap: 3rem; 
+    flex-direction: column;
+    gap: 3rem;
     margin-top: 0;
   }
 }
 
-.waveGreen{
+.waveGreen {
   width: 100%;
   position: relative;
   margin-top: -20%;
 }
-.waveTransparent{
+.waveTransparent {
   width: 100%;
   position: relative;
   margin-top: -20%;
 }
 
-.boxContactLeft{
+.boxContactLeft {
   width: 50vw;
   display: flex;
   flex-direction: column;
   @media (max-width: 900px) {
-    width: 100%;    
+    width: 100%;
   }
 }
 
@@ -65,7 +65,6 @@
   padding: 0 2rem;
   text-align: justify;
   display: flex;
- 
 }
 
 .emailContact {
@@ -78,12 +77,12 @@
   align-items: center;
 }
 
-.boxContactLeft a{
- all: unset;
- cursor: pointer;
+.boxContactLeft a {
+  all: unset;
+  cursor: pointer;
 }
 
-.contactIcon{
+.contactIcon {
   width: 50px;
   height: 50px;
   @media (max-width: 600px) {
@@ -92,20 +91,19 @@
   }
 }
 
-.contactIcon:hover{
+.contactIcon:hover {
   width: 50px;
   height: 50px;
-  color: #266D45;
+  color: #266d45;
 }
 
-.linksContact{
+.linksContact {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.boxContactRight{
-
+.boxContactRight {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -138,7 +136,7 @@
 }
 
 .boxContactRight span {
-  color:#000;
+  color: #000;
   font-size: 1.5rem;
   font-weight: 500;
   @media (max-width: 500px) {
@@ -146,7 +144,7 @@
   }
 }
 
-.emailIcon{
+.emailIcon {
   margin-right: 1rem;
   width: 3rem;
   height: 3rem;
@@ -156,6 +154,6 @@
   }
 }
 
-.locationIcon{
+.locationIcon {
   margin-right: 1rem;
 }

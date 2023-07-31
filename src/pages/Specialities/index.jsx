@@ -6,7 +6,7 @@ import nutri from "../../assets/photos/mockup5.png";
 import "./style.css";
 import Focused from "./components/Focused";
 import newWave from "../../assets/waves/home/newWave3.png";
-import { FcGraduationCap } from 'react-icons/fc';
+import { FcGraduationCap } from "react-icons/fc";
 
 import { Reveal } from "../../utils/Reveal";
 
@@ -24,24 +24,24 @@ export default function Education() {
             <h1>Um pouco da minha formação...</h1>
           </Reveal>
           <div className="descriptionEducation">
-              <ul className="educationList">
-            <Reveal>
+            <ul className="educationList">
+              <Reveal>
                 <li className="educationItem">
                   Nutricionista formada em 2006 pelas Faculdades Integradas
                   Espírita em Curitiba.
                 </li>
-            </Reveal>
+              </Reveal>
               <Reveal>
                 <li className="educationItem">
                   Especialização em Nutrição Clínica pela Universidade Federal
                   do Paraná
                 </li>
-            </Reveal>
+              </Reveal>
               <Reveal>
                 <li className="educationItem">
                   Mestre em Biotecnologia - Universidade Positivo
                 </li>
-            </Reveal>
+              </Reveal>
               <Reveal>
                 <li className="educationItem">
                   Estética e Dermocosmética Avançada Internacional pela
@@ -54,10 +54,10 @@ export default function Education() {
                   Saúde da Mulher, Emagrecimento entre outros.
                 </li>
               </Reveal>
-              </ul>
-              <div className="imgKnowledge">
-                <img src={nutri} alt="nutricionista" className="nutriImg" />
-              </div>
+            </ul>
+            <div className="imgKnowledge">
+              <img src={nutri} alt="nutricionista" className="nutriImg" />
+            </div>
           </div>
           <Reveal>
             <ul className="miniCardsContainer">
