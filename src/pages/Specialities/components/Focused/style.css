@@ -209,6 +209,7 @@
   font-size: 1.3rem;
   list-style-position: inside;
   line-height: 2rem;
+  margin-left: 4rem;
   
   @media (max-width: 500px) {
     

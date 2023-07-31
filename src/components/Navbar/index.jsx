@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../assets/logos/marcadagualogo.png";
+import { Reveal } from "../../utils/Reveal";
 import "./styles.css";
 import { Link, useLocation } from "react-router-dom";
 
@@ -32,62 +33,75 @@ export default function Navbar() {
 
   return (
     <div className="containerNavbar">
-      <img src={logo} alt="logo" className="logoweb" onClick={handleHome} />
-
+      <Reveal>
+        <img src={logo} alt="logo" className="logoweb" onClick={handleHome} />
+      </Reveal>
       <ul className="allItems">
-        <Link
-          className={`item ${activeItem === "home" ? "active" : ""}`}
-          onClick={(e) => handleClick(e, "home")}
-        >
-          <a href="#home" className="link">
-            Início
-          </a>
-        </Link>
+        <Reveal>
+          <Link
+            className={`item ${activeItem === "home" ? "active" : ""}`}
+            onClick={(e) => handleClick(e, "home")}
+          >
+            <a href="#home" className="link">
+              Início
+            </a>
+          </Link>
+        </Reveal>
 
-        <Link
-          className={`item ${activeItem === "about" ? "active" : ""}`}
-          onClick={(e) => handleClick(e, "about")}
-        >
-          <a href="#about" className="link">
-            Quem sou
-          </a>
-        </Link>
+        <Reveal>
+          <Link
+            className={`item ${activeItem === "about" ? "active" : ""}`}
+            onClick={(e) => handleClick(e, "about")}
+          >
+            <a href="#about" className="link">
+              Quem sou
+            </a>
+          </Link>
+        </Reveal>
 
-        <Link
-          className={`item ${activeItem === "education" ? "active" : ""}`}
-          onClick={(e) => handleClick(e, "education")}
-        >
-          <a href="#education" className="link">
-            Formação
-          </a>
-        </Link>
+        <Reveal>
+          <Link
+            className={`item ${activeItem === "education" ? "active" : ""}`}
+            onClick={(e) => handleClick(e, "education")}
+          >
+            <a href="#education" className="link">
+              Formação
+            </a>
+          </Link>
+        </Reveal>
 
-        <Link
-          className={`item ${activeItem === "specialities" ? "active" : ""}`}
-          onClick={(e) => handleClick(e, "specialities")}
-        >
-          <a href="#specialities" className="link">
-            Especialidades
-          </a>
-        </Link>
+        <Reveal>
+          <Link
+            className={`item ${activeItem === "specialities" ? "active" : ""}`}
+            onClick={(e) => handleClick(e, "specialities")}
+          >
+            <a href="#specialities" className="link">
+              Especialidades
+            </a>
+          </Link>
+        </Reveal>
 
-        <Link
-          className={`item ${activeItem === "infos" ? "active" : ""}`}
-          onClick={(e) => handleClick(e, "infos")}
-        >
-          <a href="#infos" className="link">
-            Informações
-          </a>
-        </Link>
+        <Reveal>
+          <Link
+            className={`item ${activeItem === "infos" ? "active" : ""}`}
+            onClick={(e) => handleClick(e, "infos")}
+          >
+            <a href="#infos" className="link">
+              Informações
+            </a>
+          </Link>
+        </Reveal>
 
-        <Link
-          className={`item ${activeItem === "contact" ? "active" : ""}`}
-          onClick={(e) => handleClick(e, "contact")}
-        >
-          <a href="#contact" className="link">
-            Contato
-          </a>
-        </Link>
+        <Reveal>
+          <Link
+            className={`item ${activeItem === "contact" ? "active" : ""}`}
+            onClick={(e) => handleClick(e, "contact")}
+          >
+            <a href="#contact" className="link">
+              Contato
+            </a>
+          </Link>
+        </Reveal>
       </ul>
     </div>
   );

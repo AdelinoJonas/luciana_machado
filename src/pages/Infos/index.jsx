@@ -25,15 +25,15 @@ export default function Infos() {
       <div className="containerInfos">
         <h2>COMO FUNCIONA O ACOMPANHAMENTO NUTRICIONAL</h2>
         <li>
-          Após agendamento da consulta, você receberá por email um
-          questionário pré-consulta, para me preparar para o seu atendimento;
+          Após agendamento da consulta, você receberá por email um questionário
+          pré-consulta, para me preparar para o seu atendimento;
         </li>
         <li>
-          Já em consulta faremos uma anamnese detalhada para te conhecer
-          melhor e assim te proporcionar um atendimento ainda mais
-          personalizado;
+          Já em consulta faremos uma anamnese detalhada para te conhecer melhor
+          e assim te proporcionar um atendimento ainda mais personalizado;
         </li>
-        <li>Ainda em consulta conversaremos sobre seus objetivos, rotinas,
+        <li>
+          Ainda em consulta conversaremos sobre seus objetivos, rotinas,
           rastreamento metabólico e interpretação de exames laboratoriais
           (quando houver), se não, serão solicitados;
         </li>
@@ -44,8 +44,8 @@ export default function Infos() {
           evolução;
         </li>
         <li>
-          Após uma semana nos encontramos novamente para a entrega do seu
-          plano alimentar personalizado com orientações e receitas.
+          Após uma semana nos encontramos novamente para a entrega do seu plano
+          alimentar personalizado com orientações e receitas.
         </li>
 
         <ul className="details">
@@ -130,7 +130,14 @@ export default function Infos() {
             <h1>Educação Nutricional </h1>
             <div className="rowReverseInfo">
               <p>
-                Aprenda a corrigir hábitos prejudiciais e adotar escolhas alimentares saudáveis, personalizadas para atender às suas necessidades. Conte comigo, pois sou especializada em oferecer acompanhamentos personalizados e tabelas nutricionais diversificadas para garantir variedade na sua dieta, sem comprometer os objetivos de saúde. Descubra como podemos ajudá-lo a alcançar uma vida mais saudável e equilibrada através da alimentação.
+                Aprenda a corrigir hábitos prejudiciais e adotar escolhas
+                alimentares saudáveis, personalizadas para atender às suas
+                necessidades. Conte comigo, pois sou especializada em oferecer
+                acompanhamentos personalizados e tabelas nutricionais
+                diversificadas para garantir variedade na sua dieta, sem
+                comprometer os objetivos de saúde. Descubra como podemos
+                ajudá-lo a alcançar uma vida mais saudável e equilibrada através
+                da alimentação.
                 {/* Ouvimos sempre sobre reeducação alimentar, porém acredito que
                 muitos aprendem hábitos que parecem saudáveis, mas podem
                 prejudicar a sua saúde. Recebendo acompanhamento adequado de um

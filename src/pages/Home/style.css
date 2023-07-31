@@ -1,7 +1,7 @@
 .containerHome {
   width: 100%;
-  height:120vh;
-  background-image: url(../../assets/photos/Mockup2.png);
+  height:110vh;
+  background-image: url(../../assets/photos/mockup2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -10,15 +10,8 @@
   justify-content: end;
   position: relative;
   z-index: 1;
-
-  /* @media (max-width: 1000px) {
-    background-size: cover;
-    background-position: center;
-    justify-content: end;
-  } */
   
   @media (max-width: 680px) {
-    /* height:60vh; */
     background-image: url(../../assets/photos/Mockup8.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -36,13 +29,6 @@
   position: absolute;
   z-index: 6;
   width: 100%;
-
-  /* @media (max-width: 625px) {
-    height:25vh;
-  }
-  @media (max-width: 420px) {
-    height:20vh;
-  } */
 
 }
  .wave2{

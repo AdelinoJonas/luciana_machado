@@ -8,11 +8,15 @@ export default function Imc() {
   const [message, setMessage] = useState("");
 
   const calculateIMC = () => {
-
     const weightValue = parseFloat(weight);
     const heightValue = parseFloat(height);
 
-    if (isNaN(weightValue) || isNaN(heightValue) || weightValue <= 0 || heightValue <= 0) {
+    if (
+      isNaN(weightValue) ||
+      isNaN(heightValue) ||
+      weightValue <= 0 ||
+      heightValue <= 0
+    ) {
       alert("Por favor, insira números positivos válidos para peso e altura.");
       return;
     }
