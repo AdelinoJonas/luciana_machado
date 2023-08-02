@@ -1,4 +1,4 @@
-.containerFooter{
+.containerFooter {
   background-color: #266d45;
   position: relative;
   display: flex;
@@ -7,14 +7,14 @@
   font-size: 1.5rem;
   margin-top: -1.5%;
 }
-.leftFooter{
+.leftFooter {
   width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.leftFooter p{
+.leftFooter p {
   font-size: 1.2rem;
   color: #fff;
   @media (max-width: 800px) {
@@ -23,7 +23,7 @@
   }
 }
 
-.rightFooter{
+.rightFooter {
   width: 10%;
   display: flex;
   flex-direction: column;
@@ -32,26 +32,25 @@
   margin-right: 1rem;
 }
 
-.rightFooter p{
+.rightFooter p {
   font-size: 1rem;
-  color: #FFf;
+  color: #fff;
   @media (max-width: 800px) {
     font-size: 1rem;
     line-height: 1.8rem;
   }
-  
 }
 
-h1{
+h1 {
   font-size: 1.2rem;
 }
 
-.leftImg{
+.leftImg {
   height: 100px;
   margin-right: 1rem;
 }
 
-.rightFooter img{
+.rightFooter img {
   width: 50px;
   cursor: pointer;
 }

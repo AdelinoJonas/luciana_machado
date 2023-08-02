@@ -15,8 +15,8 @@ export default function Home() {
   }
   return (
     <div id="home" className="containerHome">
-        <img src={wave1} alt="background wave" className="wave1" />
-        <img src={wave3} alt="background wave" className="wave2" />
+      <img src={wave1} alt="background wave" className="wave1" />
+      <img src={wave3} alt="background wave" className="wave2" />
       <motion.img
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}

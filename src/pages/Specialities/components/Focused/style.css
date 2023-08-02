@@ -2,66 +2,66 @@
   position: relative;
   margin-top: -1rem;
   background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)
-  ),url(../../../../assets/photos/Mockup7.jpg);
+      to right,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(../../../../assets/photos/Mockup7.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-color: rgba(0, 0, 0, 0.5);
   @media (max-width: 500px) {
-    background-image:none;
+    background-image: none;
     background-color: #fff;
   }
 }
 
-.headerEducation{
+.headerEducation {
   position: relative;
   margin-top: 1rem;
 }
 
-.waveInv3{
+.waveInv3 {
   width: 100%;
   position: relative;
   z-index: 8;
   margin-top: -1%;
 }
 
-.waveInv2{
+.waveInv2 {
   width: 100%;
   position: relative;
   z-index: 8;
   margin-top: -15%;
 }
 
-.waveInv1{
+.waveInv1 {
   width: 100%;
   position: relative;
   z-index: 8;
   margin-top: -25%;
 }
 
-.waveGreen{
+.waveGreen {
   width: 100%;
   position: relative;
   margin-top: -20%;
 }
-.waveTransparent{
+.waveTransparent {
   width: 100%;
   position: relative;
   margin-top: 15%;
 }
 
-.newWaveFooter{
+.newWaveFooter {
   width: 100%;
   position: relative;
   margin-top: -15%;
 }
 
-.boxEspecialities{
-
+.boxEspecialities {
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -69,22 +69,22 @@
   padding: 0 2rem 0 2rem;
 }
 
-.boxEspecialities h1{
+.boxEspecialities h1 {
   font-size: 3rem;
   text-align: center;
   color: #000;
   @media (max-width: 500px) {
     font-size: 2.5rem;
-  } 
+  }
 }
 
-.descriptionEspec h2{
+.descriptionEspec h2 {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-.descriptionEspec .especRowList{
+.descriptionEspec .especRowList {
   width: 100%;
   display: flex;
   align-items: center;
@@ -94,7 +94,7 @@
     flex-direction: column;
   }
 }
-.descriptionEspec .especRowInvertList{
+.descriptionEspec .especRowInvertList {
   width: 100%;
   display: flex;
   align-items: center;
@@ -105,7 +105,7 @@
     flex-direction: column;
   }
 }
-.descriptionEspec .especColumnList{
+.descriptionEspec .especColumnList {
   width: 100%;
   display: flex;
   align-items: center;
@@ -117,7 +117,7 @@
   }
 }
 
-.descriptionEspec .especRowList .especItem{
+.descriptionEspec .especRowList .especItem {
   width: 50%;
   font-size: 1.2rem;
   font-weight: 400;
@@ -129,7 +129,7 @@
   }
 }
 
-.descriptionEspec .especRowInvertList .especItem{
+.descriptionEspec .especRowInvertList .especItem {
   width: 50%;
   font-size: 1.2rem;
   font-weight: 400;
@@ -141,7 +141,7 @@
   }
 }
 
-.descriptionEspec .especColumnList .especItem{
+.descriptionEspec .especColumnList .especItem {
   width: 100%;
   font-size: 1.2rem;
   font-weight: 400;
@@ -153,16 +153,16 @@
   }
 }
 
-.steticImg{
+.steticImg {
   width: 40%;
-  border-radius: 79% 21% 80% 20% / 20% 76% 24% 80% ;
+  border-radius: 79% 21% 80% 20% / 20% 76% 24% 80%;
 
   @media (max-width: 1000px) {
     width: 80%;
   }
 }
 
-.fatImg{
+.fatImg {
   width: 80%;
   margin-left: 10%;
   /* padding: 0 3rem 0 3rem; */
@@ -178,7 +178,7 @@
   }
 }
 
-.cardContainer{
+.cardContainer {
   width: 50%;
   display: flex;
   justify-content: center;
@@ -186,23 +186,22 @@
   flex-direction: column;
   margin-bottom: 5rem;
   padding: 2rem 0;
-  background-color: #F5A14F;
+  background-color: #f5a14f;
   border-radius: 30%;
-  -webkit-box-shadow: -19px 47px 0px -1px #D28563;
-  -moz-box-shadow: -19px 47px 0px -1px #D28563;
-  box-shadow: -19px 47px 0px -1px #D28563;
+  -webkit-box-shadow: -19px 47px 0px -1px #d28563;
+  -moz-box-shadow: -19px 47px 0px -1px #d28563;
+  box-shadow: -19px 47px 0px -1px #d28563;
   @media (max-width: 1000px) {
     width: 100%;
     padding-left: 1rem;
     flex-direction: column;
     /* margin-bottom: 1rem; */
     border-radius: 30%;
-    box-shadow: -9px 27px 0px -1px #D28563;
+    box-shadow: -9px 27px 0px -1px #d28563;
   }
-
 }
 
-.card{
+.card {
   width: 70%;
   padding: 1rem;
   text-align: start;
@@ -210,9 +209,8 @@
   list-style-position: inside;
   line-height: 2rem;
   margin-left: 4rem;
-  
+
   @media (max-width: 500px) {
-    
     width: 80%;
     font-size: 1.2rem;
     margin-left: 2rem;
