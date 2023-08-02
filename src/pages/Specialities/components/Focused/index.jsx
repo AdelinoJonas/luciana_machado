@@ -1,16 +1,16 @@
+import { motion } from "framer-motion";
 import React from "react";
 import dna from "../../../../assets/photos/dnaFood.jpg";
 import fitxfat from "../../../../assets/photos/gorduraxmusculo.jpg";
-import clinic from "../assets/mockup6.png";
 import stetic from "../../../../assets/photos/stetic.png";
 import waveGreen from "../../../../assets/waves/home/waveGreen.svg";
 import wave1 from "../../../../assets/waves/home/waveInverted1.svg";
 import wave2 from "../../../../assets/waves/home/waveInverted2.svg";
 import wave3 from "../../../../assets/waves/home/waveInverted3.svg";
 import waveTransparent from "../../../../assets/waves/home/waveTransparent.svg";
-import { motion } from "framer-motion";
-import "./style.css";
 import { Reveal } from "../../../../utils/Reveal";
+import clinic from "../assets/mockup6.png";
+import "./style.css";
 
 export default function Focused() {
   return (

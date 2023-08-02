@@ -2,7 +2,6 @@ import React from "react";
 import perfil from "../../assets/waves/about/perfilbg.png";
 import { Reveal } from "../../utils/Reveal";
 import "./style.css";
-import { motion } from "framer-motion";
 
 export default function About() {
   const whatsappNumber = 4199166424;
