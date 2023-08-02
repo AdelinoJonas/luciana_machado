@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/logos/marcadagualogo.png";
 import { Reveal } from "../../utils/Reveal";
 import "./styles.css";
-import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const { pathname } = useLocation();

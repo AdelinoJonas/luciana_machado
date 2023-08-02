@@ -1,10 +1,9 @@
+import { motion } from "framer-motion";
 import React from "react";
+import whatsapp from "../../assets/logos/whatsOriginal.webp";
 import wave1 from "../../assets/waves/home/colorwavebg.png";
 import wave3 from "../../assets/waves/home/newWave3.png";
-import whatsapp from "../../assets/logos/whatsOriginal.webp";
-import { motion } from "framer-motion";
 import "./style.css";
-import { RevealHome } from "../../utils/RevealHome";
 
 export default function Home() {
   const whatsappNumber = 4199166424;

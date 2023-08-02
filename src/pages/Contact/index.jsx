@@ -9,8 +9,8 @@ import wave1 from "../../assets/infos/waveGreenInverted.svg";
 import wave2 from "../../assets/infos/waveInvert.svg";
 import waveGreen from "../../assets/waves/home/waveGreen.svg";
 import waveTransparent from "../../assets/waves/home/waveTransparent.svg";
-import "./style.css";
 import { Reveal } from "../../utils/Reveal";
+import "./style.css";
 
 export default function Contact() {
   const whatsappNumber = 4199166424;

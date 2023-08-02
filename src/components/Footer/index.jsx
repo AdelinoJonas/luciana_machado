@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../../assets/footer/lulogoremovebg.png";
 import jan from "../../assets/footer/logo.svg";
+import logo from "../../assets/footer/lulogoremovebg.png";
 import "./styles.css";
 
 export default function Footer() {
