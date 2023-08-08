@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import React from "react";
 import dna from "../../../../assets/photos/dnaFood.jpg";
 import fitxfat from "../../../../assets/photos/gorduraxmusculo.jpg";
 import stetic from "../../../../assets/photos/stetic.png";
