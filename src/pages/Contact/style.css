@@ -29,7 +29,7 @@
 
 .boxContact {
   display: flex;
-  margin-bottom: 20%;
+  /* margin-bottom: 20%; */
   padding-top: 10vh;
   @media (max-width: 900px) {
     flex-direction: column;
