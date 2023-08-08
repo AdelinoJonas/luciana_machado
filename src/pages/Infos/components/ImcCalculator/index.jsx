@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./styles.css";
 import newWave from "../../../../assets/waves/home/waveGreen.svg";
 import { Reveal } from "../../../../utils/Reveal";
+import "./styles.css";
 
 export default function Imc() {
   const [weight, setWeight] = useState("");
