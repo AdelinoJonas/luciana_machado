@@ -1,6 +1,6 @@
-import React from "react";
-import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import React from "react";
+import { MapContainer, Marker, TileLayer } from "react-leaflet";
 import "./styles.css";
 
 const Map = ({ latitude, longitude }) => {

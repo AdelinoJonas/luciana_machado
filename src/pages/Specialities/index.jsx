@@ -1,12 +1,11 @@
 import React from "react";
-import wave3 from "../../assets/waves/home/waveInverted3.svg";
-import wave2 from "../../assets/waves/home/waveInverted2.svg";
-import wave1 from "../../assets/waves/home/waveInverted1.svg";
 import nutri from "../../assets/photos/mockup5.png";
-import "./style.css";
-import Focused from "./components/Focused";
 import newWave from "../../assets/waves/home/newWave3.png";
-import { FcGraduationCap } from "react-icons/fc";
+import wave1 from "../../assets/waves/home/waveInverted1.svg";
+import wave2 from "../../assets/waves/home/waveInverted2.svg";
+import wave3 from "../../assets/waves/home/waveInverted3.svg";
+import Focused from "./components/Focused";
+import "./style.css";
 
 import { Reveal } from "../../utils/Reveal";
 

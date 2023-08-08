@@ -1,15 +1,15 @@
 import React from "react";
-import wave3 from "../../assets/waves/home/waveGreenInverted.svg";
-import wave2 from "../../assets/waves/home/waveInvertedTransparent.svg";
-import piramide from "../../assets/infos/piramidealimentarRemovebg.png";
 import adipometro from "../../assets/infos/adipometro.webp";
 import modulo from "../../assets/infos/escaladebristol.png";
+import piramide from "../../assets/infos/piramidealimentarRemovebg.png";
 import health from "../../assets/infos/womanHealth.png";
-import "./style.css";
-import Imc from "./components/ImcCalculator";
-import waveTransparent from "../../assets/waves/home/waveTransparent.svg";
 import waveGreen from "../../assets/waves/home/waveGreen.svg";
+import wave3 from "../../assets/waves/home/waveGreenInverted.svg";
+import wave2 from "../../assets/waves/home/waveInvertedTransparent.svg";
+import waveTransparent from "../../assets/waves/home/waveTransparent.svg";
 import { Reveal } from "../../utils/Reveal";
+import Imc from "./components/ImcCalculator";
+import "./style.css";
 
 export default function Infos() {
   return (

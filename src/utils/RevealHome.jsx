@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
+import React, { useEffect, useRef } from "react";
 
 export const RevealHome = ({ children }) => {
   const ref = useRef(null);
