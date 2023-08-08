@@ -28,7 +28,7 @@ export default function Imc() {
 
       if (imc < 18.5) {
         imcMessage =
-          "(Abaixo do Peso) - Ei, você é tão leve que poderia competir no levantamento de penas! Mas cuidado, vou ajudar você a ganhar peso de forma saudável. Que tal um plano alimentar com direito a sobremesa e tudo? Fale comigo, ficarei muito feliz em te ajudar!";
+          "(Abaixo do Peso) - Ei, você é tão leve que poderia competir no levantamento de penas! Mas cuidado, vou te ajudar a ganhar peso de forma saudável. Que tal um plano alimentar com direito a sobremesa e tudo? Fale comigo, ficarei muito feliz em te ajudar!";
       } else if (imc >= 18.5 && imc < 24.9) {
         imcMessage =
           "(Peso normal) - Parabéns! Você está no seu peso ideal! Mas se quiser continuar assim, vou ser sua 'guardiã da balança' e te ajudar a manter essa forma física invejável. fale comigo, ficaria muito feliz em te ajudar!";
@@ -40,7 +40,7 @@ export default function Imc() {
           "(Obesidade Grau 1) - Seu IMC diz que você é oficialmente um 'rebelde das balanças'! Mas não se preocupe, estou aqui para te ajudar a desbravar esse caminho e voltar para o território do peso saudável. Vamos suar a camisa (literalmente) juntos! fale comigo, ficaria muito feliz em te ajudar!";
       } else if (imc >= 35 && imc < 39.9) {
         imcMessage =
-          "(Obesidade Grau 2) - Ei, você é uma pessoa incrível, e agora temos um novo desafio: transformar a obesidade grau 2 em 'Grau de Determinação'! Estou aqui para oferecer apoio, compartilhar dicas e ajudá-lo a dar passos importantes rumo a uma vida mais saudável. fale comigo, ficaria muito feliz em te ajudar!";
+          "(Obesidade Grau 2) - Ei, você é uma pessoa incrível, e agora temos um novo desafio: transformar a obesidade grau 2 em 'Grau de Determinação'! Estou aqui para oferecer apoio, compartilhar dicas e te ajudar a dar passos importantes rumo a uma vida mais saudável. fale comigo, ficaria muito feliz em te ajudar!";
       } else {
         imcMessage =
           "(Obesidade Grau 3) - Você é uma estrela brilhante, e vamos trazer todo esse brilho para a jornada de saúde! Juntos, vamos enfrentar a obesidade grau 3, conquistar pequenas vitórias e trabalhar para transformar o impossível em possível. Se o seu resultado não te agradou, ou sente que poderia ser melhor. fale comigo, ficaria muito feliz em te ajudar!";

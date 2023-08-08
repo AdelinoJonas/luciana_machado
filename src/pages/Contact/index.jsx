@@ -46,7 +46,7 @@ export default function Contact() {
           <p>
             <Reveal>
               Se você tiver alguma dúvida, sugestão ou gostaria de marcar uma
-              consulta. Por favor entre em contato. Terei o prazer em responder
+              consulta, por favor entre em contato. Terei o prazer em responder
               o mais rápido possível.
             </Reveal>
           </p>
