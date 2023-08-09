@@ -120,7 +120,7 @@ export default function Contact() {
       <img
         src={waveTransparent}
         alt="background wave"
-        className="waveTransparent"
+        className="waveTransparentContact"
       />
       <img src={waveGreen} alt="background wave" className="waveGreen" />
     </div>
