@@ -125,6 +125,7 @@ export default function Infos() {
                   microbiota intestinal é possível obter diversos benefícios,
                   como melhora dos sintomas gastrointestinais, disposição,
                   fortalecimento do sistema imunológico, entre outros.
+                  A figura que ilustra o texto é a Escala de Bristol. Os valores 3, 4 e 5 são considerados normais; 1 e 2 podem indicar constipação e o 6 e 7 se associam a doenças que evoluem com diarreia. A consistência, o formato, a coloração  e o odor falam muito sobre a sua saúde intestinal.
                 </Reveal>
               </p>
               <img
