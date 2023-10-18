@@ -54,7 +54,7 @@ export default function Contact() {
             <Reveal>
               Você também pode me encontrar nas redes sociais. Me siga para
               receber dicas de nutrição, receitas saudáveis e ficar por dentro
-              dos detalhes para manter uma saúde alimentar invejável.
+              dos detalhes para manter uma saúde invejável.
             </Reveal>
           </p>
 
